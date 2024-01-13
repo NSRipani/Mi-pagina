@@ -1,0 +1,4983 @@
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    *{
+        margin: 0 ;
+        padding: 0 ;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; 
+        align-items: center ;
+        position: sticky ;
+        top: 0;
+    }
+
+    .header img{
+        width: 6rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul li {
+        list-style-type: none;
+        display: none; 
+    }
+
+    .header .menu {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    /* .carousel-inner .carousel-item img{
+        display: flex;
+        width: 100%;
+        height: 18.75rem;
+        object-fit: cover;
+    } */
+
+    /* .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 18rem;
+        height: 13rem;
+    } */
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed; 
+        bottom: 9rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 0.5rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 0.5rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .sec-segunda {
+        display: flex;
+        background-color: rgba(125, 143, 95, 0.46);
+        align-items: center;
+    }
+    
+        /* IMAGEN EN EL CUEPO */
+    .sec-segunda img{
+        width: 5rem;
+        height: 7rem;
+        padding-left: 1rem;
+    }
+        /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
+    .sec-segunda .parrafo{
+        padding: 1.5rem;
+        line-height: 1rem;
+        font-size: 1rem;
+        text-align: justify;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+    .nos-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+    
+        /* TITULO (h2) */
+    .nos-primero h2{
+        font-size: 0.65rem;
+        padding: 1rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+    
+        /* PARRAFO */
+    .nos-primero p{
+        font-size: 1rem;
+        padding: 1rem;
+        line-height: 1rem;
+        display: flow;
+        text-align: justify;
+        margin: auto;
+    }
+    
+        /* IMAGEN QUE ACOMPAÑA AL PARRAFO */
+    .nos-primero p img{
+        width: 7rem;
+        height: 7rem;
+        padding: 0.5rem;
+        display: flex;
+        float: left;
+    }
+
+    /* COLOR DE FONDO DEL TITULO (h2)*/
+    .ubi-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .ubi-primero h2{
+        padding: 1rem;
+        font-size: 1rem;
+        margin:0rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAFO */
+    .ubi-primero p{
+        font-size: 1rem;
+        margin:0rem;
+        padding: 2rem;
+    }
+
+        /* MAPA DE UBICACION */
+    .ubi-primero iframe{
+        margin: 0rem;
+        padding: 2rem 2rem;
+        display: flex;
+        width: 85%;
+    }
+
+    /* ESTILO DE SECCION*/
+    .servic-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .servic-primero h2{
+        background-color: rgba(125, 143, 95, 0.46);
+        font-size: 0.8rem;
+        margin:0rem;
+        padding: 1rem 2rem;
+        padding-left: 2rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
+    .servic-primero p{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+        /* ICONO PARA REEMPLAZAR A LOS ITEs DE LA LISTA NO ORDENADA */
+    .servic-primero ul{
+        list-style-image:url("../asset/img/check.png");
+        line-height: 2.5rem;
+        padding: 2rem 2rem ;
+        margin: auto 2rem;
+    }
+
+        /* POSICION Y TAMANO DE TEXTO DE LA LISTA NO ORDENADA */
+    .servic-primero ul li{
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding: 2rem 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        /*align-items:center;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.3rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.3rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+    /* TITULO (h2) */
+    .con-primero h2{
+        font-size: 0.9rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+        /* ESTILO DEL FONDO DEL PARRAFO Y EL ENLACE */
+    .con-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding-bottom: 2rem;
+    }
+        /* PARRAFO */
+    .con-primero p{
+        padding: 2rem;
+        font-size: 0.9rem;
+        margin: auto;
+    }
+
+    .con-primero p a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* ESTILO PARA EL FOMULARIO */
+    .con-primero form {
+        max-width: 25rem;
+        margin: auto 2rem;
+        padding-bottom: 2rem;
+        padding: 1.25rem;
+        background-color: #9b9696;
+        border-radius: 0.625rem;
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    }
+        /* ESTILO DE LAVELs DEL FOMULARIO */
+    .con-primero label {
+        display: block;
+        margin-bottom: 0.2rem;
+        color: #000000;
+    }
+
+        /* ESTILO PARA LOS 'IMPUTs' Y EL CAMPO 'MENSAJE' DEL FORMULARIO */
+    .con-primero input, textarea {
+        width: 95%;
+        padding: 0.6rem;
+        border: 0.2rem solid #ccc;
+        border-radius: 0.25;
+        margin-bottom: 0.6rem;
+        resize: none;
+    }
+
+        /* ESTILO PARA EL BOTON 'ENVIAR' */
+    .con-primero input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        width: 20.5rem;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .con-primero input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+    }
+    
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0rem;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 3rem;
+        display: flex;
+        background-color: #605f5f; 
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; 
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        display: none; 
+    }
+
+    .header .menu{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 18rem;
+        height: 13rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 5rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 0.5rem 3rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 0.8rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .sec-segunda {
+        display: flex;
+        background-color: rgba(125, 143, 95, 0.46);
+        align-items: center;
+    }
+    
+        /* IMAGEN EN EL CUEPO */
+    .sec-segunda img{
+        width: 8rem;
+        height: 12rem;
+        padding: 3rem 2rem 3rem 5rem;
+    }
+        /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
+    .sec-segunda .parrafo{
+        padding: 5rem 5rem 5rem 1rem;
+        line-height: 1.2rem;
+        font-size: 1.2rem;
+        text-align: justify;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 1rem 5rem;
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none; 
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem; 
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;  
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto ;
+        margin-bottom: 0.5rem ;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto ;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 6rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .header nav ul li a{
+        padding: 0.2rem;
+        text-decoration: none;
+        color: #cfcfcf;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+        margin: 0.5rem;
+    }
+    .header .menu{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 21rem;
+        height: 15rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1.2rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .sec-segunda {
+        display: flex;
+        background-color: rgba(125, 143, 95, 0.46);
+        align-items: center;
+    }
+    
+        /* IMAGEN EN EL CUEPO */
+    .sec-segunda img{
+        width: 12rem;
+        height: 14rem;
+        padding: 3rem 1rem 3rem 7rem;
+    }
+        /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
+    .sec-segunda .parrafo{
+        padding: 4rem 10rem 5rem 1rem;
+        line-height: 2rem;
+        font-size: 1.3rem;
+        text-align: justify;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 7rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+   
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 5.5rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-around; 
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+    
+
+    .header nav ul li a{
+        padding: 0.5rem;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.2rem;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+        margin: 1rem;
+    }
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .sec-segunda {
+        display: flex;
+        background-color: rgba(125, 143, 95, 0.46);
+        align-items: center;
+    }
+    
+        /* IMAGEN EN EL CUEPO */
+    .sec-segunda img{
+        width: 12rem;
+        height: 14rem;
+        padding: 3rem 1rem 3rem 7rem;
+    }
+        /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
+    .sec-segunda .parrafo{
+        padding: 4rem 10rem 5rem 1rem;
+        line-height: 2rem;
+        font-size: 1.3rem;
+        text-align: justify;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 7rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 10rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; 
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .header nav ul li a{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+
+    }
+
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .sec-segunda {
+        display: flex;
+        background-color: rgba(125, 143, 95, 0.46);
+        align-items: center;
+    }
+    
+        /* IMAGEN EN EL CUEPO */
+    .sec-segunda img{
+        width: 12rem;
+        height: 14rem;
+        padding: 3rem 1rem 3rem 10rem;
+    }
+        /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
+    .sec-segunda .parrafo{
+        padding: 4rem 10rem 5rem 1rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+        text-align: justify;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 10rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}  
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 3rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+    }
+
+    .header .menu{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 23rem;
+        height: 18rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 0.5rem 2rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .nos-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+    
+        /* TITULO (h2) */
+    .nos-primero h2{
+        font-size: 1.2rem;
+        padding: 1rem 3rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+    
+        /* PARRAFO */
+    .nos-primero p{
+        font-size: 1rem;
+        text-align: justify;
+        margin: auto;
+        padding: 2rem 3rem;
+        line-height: 1.3rem;
+    }
+    
+        /* IMAGEN QUE ACOMPAÑA AL PARRAFO */
+    .nos-primero p img{
+        height: 10rem;
+        width: 10rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        float: left;
+    }
+    
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 1rem 3rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .footer .grid .ig{
+        display: flex;
+    }
+
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .footer .grid .facebook{
+        display: flex;
+    }
+
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer .grid .numero p{
+        align-items: center;
+    }
+
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 6rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav {
+        /*list-style-type: none;*/
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .header nav ul li{
+        display: flex;
+        text-align: center;
+        justify-content: space-around; 
+    }
+
+    .header nav ul li a{
+        padding: 0.2rem;
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+        margin: 0.5rem;
+    }
+
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 21rem;
+        height: 15rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 6rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1.2rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .nos-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+    
+        /* TITULO (h2) */
+    .nos-primero h2{
+        font-size: 1rem;
+        padding: 1rem 6rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+    
+        /* PARRAFO */
+    .nos-primero p{
+        font-size: 1rem;
+        text-align: justify;
+        margin: auto;
+        padding: 2rem 6rem;
+        line-height: 1.3rem;
+    }
+    
+        /* IMAGEN QUE ACOMPAÑA AL PARRAFO */
+    .nos-primero p img{
+        height: 12rem;
+        width: 12rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        float: left;
+    }
+    
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 1rem 6rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .footer .grid .ig{
+        display: flex;
+    }
+
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .footer .grid .facebook{
+        display: flex;
+    }
+
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer .grid .numero p{
+        align-items: center;
+    }
+
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 5.5rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between;
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between;
+    }
+
+    .header nav ul li a{
+        padding: 1rem;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.2rem;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 10rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1.1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .nos-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+    
+        /* TITULO (h2) */
+    .nos-primero h2{
+        font-size: 1rem;
+        padding: 1rem 10rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+    
+        /* PARRAFO */
+    .nos-primero p{
+        font-size: 1.2rem;
+        text-align: justify;
+        margin: auto;
+        padding: 2rem 10rem;
+        line-height: 1.5rem;
+    }
+    
+        /* IMAGEN QUE ACOMPAÑA AL PARRAFO */
+    .nos-primero p img{
+        height: 12rem;
+        width: 12rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        float: left;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 7rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 6rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; 
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between; 
+    }
+
+    .header nav ul li a{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    
+    .img{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .titulo{    
+        padding: 0.5rem 2rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .nos-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+    
+        /* TITULO (h2) */
+    .nos-primero h2{
+        font-size: 1.2rem;
+        padding: 1rem 10rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+    
+        /* PARRAFO */
+    .nos-primero p{
+        font-size: 1rem;
+        text-align: justify;
+        margin: auto;
+        padding: 2rem 10rem;
+        line-height: 2rem;
+    }
+    
+        /* IMAGEN QUE ACOMPAÑA AL PARRAFO */
+    .nos-primero p img{
+        height: 10rem;
+        width: 10rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        float: left;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 1rem 3rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .footer .grid .ig{
+        display: flex;
+    }
+
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .footer .grid .facebook{
+        display: flex;
+    }
+
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer .grid .numero p{
+        align-items: center;
+    }
+
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 3rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        display: none; 
+    }
+
+    .header .menu{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 18rem;
+        height: 13rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 8.5rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 0.5rem 3rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 0.8rem;
+        border: 0.1rem solid #000000;
+    }
+
+     /* COLOR DE FONDO DEL TITULO (h2)*/
+    .ubi-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .ubi-primero h2{
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        margin:0rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAFO */
+    .ubi-primero p{
+        font-size: 1rem;
+        margin:0rem;
+        padding: 2rem 3rem;
+    }
+
+        /* MAPA DE UBICACION */
+    .ubi-primero iframe{
+        margin: 0rem;
+        padding: 2rem 3rem;
+        display: flex;
+        width: 85%;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 1rem 3rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 6rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+    }
+
+    .header nav ul li a{
+        padding: 0.2rem;
+        text-decoration: none;
+        color: #cfcfcf;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+        margin: 0.5rem;
+    }
+    .header .menu{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 21rem;
+        height: 15rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 11rem;
+        right: 6rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1.2rem;
+        border: 0.1rem solid #000000;
+    }
+
+     /* COLOR DE FONDO DEL TITULO (h2)*/
+    .ubi-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .ubi-primero h2{
+        padding: 1rem 6rem;
+        font-size: 1rem;
+        margin:0rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAFO */
+    .ubi-primero p{
+        font-size: 1rem;
+        margin:0rem;
+        padding: 2rem 6rem;
+    }
+
+        /* MAPA DE UBICACION */
+    .ubi-primero iframe{
+        margin: 0rem;
+        padding: 2rem 6rem;
+        display: flex;
+        width: 85%;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 6rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 5.5rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+    }
+
+    .header nav ul li a{
+        padding: 1rem;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 6rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 1.2rem;
+        border: 0.1rem solid #000000;
+    }
+
+     /* COLOR DE FONDO DEL TITULO (h2)*/
+     .ubi-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .ubi-primero h2{
+        padding: 1rem 6rem;
+        font-size: 1.1rem;
+        margin:0rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAFO */
+    .ubi-primero p{
+        font-size: 1rem;
+        margin:0rem;
+        padding: 2rem 6rem;
+    }
+
+        /* MAPA DE UBICACION */
+    .ubi-primero iframe{
+        margin: 0rem;
+        padding: 2rem 6rem;
+        display: flex;
+        width: 85%;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 7rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 10rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; 
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+    }
+
+    .header nav ul li a{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+        /* COLOR DE FONDO DEL TITULO (h2)*/
+    .ubi-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .ubi-primero h2{
+        padding: 1rem 10rem;
+        font-size: 1.1rem;
+        margin:0rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAFO */
+    .ubi-primero p{
+        font-size: 1rem;
+        margin:0rem;
+        padding: 2rem 10rem;
+    }
+
+        /* MAPA DE UBICACION */
+    .ubi-primero iframe{
+        margin: 0rem;
+        padding: 2rem 10rem;
+        display: flex;
+        width: 85%;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 10rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 3rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 8rem;
+        height: 3rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        display: none; 
+    }
+
+    .header .menu{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 18rem;
+        height: 13rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 8.5rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 0.5rem 3rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 0.8rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* ESTILO DE SECCION*/
+    .servic-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .servic-primero h2{
+        background-color: rgba(125, 143, 95, 0.46);
+        font-size: 0.8rem;
+        margin:0rem;
+        padding: 1rem 3rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
+    .servic-primero p{
+        padding: 1rem 3rem;
+        font-size: 1rem;
+    }
+
+        /* ICONO PARA REEMPLAZAR A LOS ITEs DE LA LISTA NO ORDENADA */
+    .servic-primero ul{
+        list-style-image:url("../asset/img/check.png");
+        line-height: 2.5rem;
+        padding: 1rem 4rem ;
+        margin: auto 2rem;
+    }
+
+        /* POSICION Y TAMANO DE TEXTO DE LA LISTA NO ORDENADA */
+    .servic-primero ul li{
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding: 2rem 3rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+    
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 1rem 3rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 6rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+    }
+
+    .header nav ul li a{
+        padding: 0.2rem;
+        text-decoration: none;
+        color: #cfcfcf;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+        margin: 0.5rem;
+    }
+    .header .menu{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 21rem;
+        height: 15rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 11rem;
+        right: 6rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 6rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1.2rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* ESTILO DE SECCION*/
+    .servic-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .servic-primero h2{
+        background-color: rgba(125, 143, 95, 0.46);
+        font-size: 1rem;
+        margin:0rem;
+        padding: 1rem 6rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
+    .servic-primero p{
+        padding: 1rem 6rem;
+        font-size: 1rem;
+    }
+
+        /* ICONO PARA REEMPLAZAR A LOS ITEs DE LA LISTA NO ORDENADA */
+    .servic-primero ul{
+        list-style-image:url("../asset/img/check.png");
+        line-height: 2.5rem;
+        padding: 1rem 8rem ;
+        margin: auto 2rem;
+    }
+
+        /* POSICION Y TAMANO DE TEXTO DE LA LISTA NO ORDENADA */
+    .servic-primero ul li{
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding: 2rem 6rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 6rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 5.5rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between;
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between;
+    }
+
+    .header nav ul li a{
+        padding: 1rem;
+        text-decoration: none;
+        color: #cfcfcf;
+        font-size: 1.2rem;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 6rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1.1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* ESTILO DE SECCION*/
+    .servic-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .servic-primero h2{
+        background-color: rgba(125, 143, 95, 0.46);
+        font-size: 1rem;
+        margin:0rem;
+        padding: 1rem 10rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
+    .servic-primero p{
+        padding: 1rem 10rem;
+        font-size: 1rem;
+    }
+
+        /* ICONO PARA REEMPLAZAR A LOS ITEs DE LA LISTA NO ORDENADA */
+    .servic-primero ul{
+        list-style-image:url("../asset/img/check.png");
+        line-height: 2.5rem;
+        padding: 1rem 12rem ;
+        margin: auto 2rem;
+    }
+
+        /* POSICION Y TAMANO DE TEXTO DE LA LISTA NO ORDENADA */
+    .servic-primero ul li{
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding: 2rem 10rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        text-align: center;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 7rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 10rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; 
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+    }
+
+    .header nav ul li a{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* ESTILO DE SECCION*/
+    .servic-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .servic-primero h2{
+        background-color: rgba(125, 143, 95, 0.46);
+        font-size: 1rem;
+        margin:0rem;
+        padding: 1rem 10rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
+    .servic-primero p{
+        padding: 1rem 10rem;
+        font-size: 1rem;
+    }
+
+        /* ICONO PARA REEMPLAZAR A LOS ITEs DE LA LISTA NO ORDENADA */
+    .servic-primero ul{
+        list-style-image:url("../asset/img/check.png");
+        line-height: 2.5rem;
+        padding: 1rem 12rem ;
+        margin: auto 2rem;
+    }
+
+        /* POSICION Y TAMANO DE TEXTO DE LA LISTA NO ORDENADA */
+    .servic-primero ul li{
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding: 2rem 10rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        text-align: center;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 10rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 3rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        display: none; 
+    }
+
+    .header .menu{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 18rem;
+        height: 13rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 6.5rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 3rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* TITULO (h2) */
+    .con-primero h2{
+        font-size: 1rem;
+        margin: auto;
+        padding: 1rem 3rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+        /* ESTILO DEL FONDO DEL PARRAFO Y EL ENLACE */
+    .con-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding-bottom: 2rem;
+    }
+        /* PARRAFO */
+    .con-primero p{
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .con-primero p a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* ESTILO PARA EL FOMULARIO */
+    .con-primero form {
+        max-width: 25rem;
+        margin: auto;
+        padding-bottom: 2rem;
+        padding: 1.25rem;
+        background-color: #9b9696;
+        border-radius: 0.625rem;
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    }
+        /* ESTILO DE LAVELs DEL FOMULARIO */
+    .con-primero label {
+        display: block;
+        margin-bottom: 0.2rem;
+        color: #000000;
+    }
+
+        /* ESTILO PARA LOS 'IMPUTs' Y EL CAMPO 'MENSAJE' DEL FORMULARIO */
+    .con-primero input, textarea {
+        width: 95%;
+        padding: 0.6rem;
+        border: 0.2rem solid #ccc;
+        border-radius: 0.25;
+        margin-bottom: 0.6rem;
+        resize: none;
+    }
+
+        /* ESTILO PARA EL BOTON 'ENVIAR' */
+    .con-primero input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        width: 25rem;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .con-primero input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 1rem 5rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 6rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+
+    .header nav ul li a{
+        padding: 0.2rem;
+        text-decoration: none;
+        color: #cfcfcf;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+        margin: 0.5rem;
+    }
+    .header .menu{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 21rem;
+        height: 15rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 6rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 1.2rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* TITULO (h2) */
+    .con-primero h2{
+        font-size: 1rem;
+        margin: auto;
+        padding: 1rem 6rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+        /* ESTILO DEL FONDO DEL PARRAFO Y EL ENLACE */
+    .con-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding-bottom: 2rem;
+    }
+        /* PARRAFO */
+    .con-primero p{
+        padding: 1rem 6rem;
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .con-primero p a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* ESTILO PARA EL FOMULARIO */
+    .con-primero form {
+        max-width: 25rem;
+        margin: auto;
+        padding-bottom: 2rem;
+        padding: 1.25rem;
+        background-color: #9b9696;
+        border-radius: 0.625rem;
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    }
+        /* ESTILO DE LAVELs DEL FOMULARIO */
+    .con-primero label {
+        display: block;
+        margin-bottom: 0.2rem;
+        color: #000000;
+    }
+
+        /* ESTILO PARA LOS 'IMPUTs' Y EL CAMPO 'MENSAJE' DEL FORMULARIO */
+    .con-primero input, textarea {
+        width: 95%;
+        padding: 0.6rem;
+        border: 0.2rem solid #ccc;
+        border-radius: 0.25;
+        margin-bottom: 0.6rem;
+        resize: none;
+    }
+
+        /* ESTILO PARA EL BOTON 'ENVIAR' */
+    .con-primero input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        width: 25rem;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .con-primero input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 7rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 10rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+        align-items: center; /* ALINEA VERTICALMENTE */
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+
+    .header nav ul li a{
+        /*padding: 1rem;*/
+        text-decoration: none;
+        color: #cfcfcf;
+        font-size: 1.2rem;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem 10rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 1.1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* TITULO (h2) */
+    .con-primero h2{
+        font-size: 1rem;
+        margin: auto;
+        padding: 1rem 10rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+        /* ESTILO DEL FONDO DEL PARRAFO Y EL ENLACE */
+    .con-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding-bottom: 2rem;
+    }
+        /* PARRAFO */
+    .con-primero p{
+        padding: 1.5rem 10rem;
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .con-primero p a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* ESTILO PARA EL FOMULARIO */
+    .con-primero form {
+        max-width: 25rem;
+        margin: auto;
+        padding-bottom: 2rem;
+        padding: 1.25rem;
+        background-color: #9b9696;
+        border-radius: 0.625rem;
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    }
+        /* ESTILO DE LAVELs DEL FOMULARIO */
+    .con-primero label {
+        display: block;
+        margin-bottom: 0.2rem;
+        color: #000000;
+    }
+
+        /* ESTILO PARA LOS 'IMPUTs' Y EL CAMPO 'MENSAJE' DEL FORMULARIO */
+    .con-primero input, textarea {
+        width: 95%;
+        padding: 0.6rem;
+        border: 0.2rem solid #ccc;
+        border-radius: 0.25;
+        margin-bottom: 0.6rem;
+        resize: none;
+    }
+
+        /* ESTILO PARA EL BOTON 'ENVIAR' */
+    .con-primero input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        width: 25rem;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .con-primero input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 7rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header {
+        padding: 1rem 10rem;
+        display: flex;
+        background-color: #605f5f;
+        border-bottom: 0.1rem solid #000000;
+        justify-content: space-between; 
+        align-items: center; 
+        position: sticky;
+        top: 0;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header nav ul li {
+        justify-content: space-between; /* ALINEA HORIZONTALMENTE */
+    }
+
+    .header nav ul li a{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+    }
+
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        /*justify-content: center;*/
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    /* TITULO (h2) */
+    .con-primero h2{
+        font-size: 1rem;
+        margin: auto;
+        padding: 1rem 10rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+        /* ESTILO DEL FONDO DEL PARRAFO Y EL ENLACE */
+    .con-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding-bottom: 2rem;
+    }
+        /* PARRAFO */
+    .con-primero p{
+        padding: 1rem 10rem;
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .con-primero p a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* ESTILO PARA EL FOMULARIO */
+    .con-primero form {
+        max-width: 25rem;
+        margin: auto;
+        padding-bottom: 2rem;
+        padding: 1.25rem;
+        background-color: #9b9696;
+        border-radius: 0.625rem;
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    }
+        /* ESTILO DE LAVELs DEL FOMULARIO */
+    .con-primero label {
+        display: block;
+        margin-bottom: 0.2rem;
+        color: #000000;
+    }
+
+        /* ESTILO PARA LOS 'IMPUTs' Y EL CAMPO 'MENSAJE' DEL FORMULARIO */
+    .con-primero input, textarea {
+        width: 95%;
+        padding: 0.6rem;
+        border: 0.2rem solid #ccc;
+        border-radius: 0.25;
+        margin-bottom: 0.6rem;
+        resize: none;
+    }
+
+        /* ESTILO PARA EL BOTON 'ENVIAR' */
+    .con-primero input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        width: 25rem;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .con-primero input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 10rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
+        margin: auto;
+    }
+}  
