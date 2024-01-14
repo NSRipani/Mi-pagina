@@ -43,8 +43,23 @@ body{
     color: blue;
 }
 
+.row .card .card-body{
+    background-color: #ffffff;
+    border: 0.2rem solid #000000;
+
+}
+
 .row .card .card-body h5{
     text-decoration: underline;
+    
+}
+
+.row .card .card-body a:active{
+    background-color: #4CAF50;
+}
+
+.row .card .card-body a:hover{
+    animation-direction: alternate;
 }
 
 .footer {
