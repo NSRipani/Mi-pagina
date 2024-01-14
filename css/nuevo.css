@@ -21,10 +21,6 @@ body{
     position: fixed !important;
 }
 
-.carousel-inner{
-    z-index: -1;
-}
-
 .sec-segunda {
     display: flex;
     background-color: rgba(125, 143, 95, 0.46);
@@ -41,10 +37,6 @@ body{
 
 .servic-primero ul li:active {
     color: blue;
-}
-
-.row .card .card-body h5{
-    text-decoration: underline;
 }
 
 .footer {
@@ -66,10 +58,11 @@ body{
         height: 2rem;
     }
     
-    .carousel-inner img{
+    .carousel-inner .carousel-item img{
         display: flex;
         width: 100%;
-        object-fit: cover;
+        /*height: 18.75rem;*/
+        object-fit: cover; /*cubre el ancho de la ventada */
     } 
 
     .img{
@@ -85,7 +78,7 @@ body{
     
     /* ICONO WHATSAPP */
     .whatsapp{ 
-        bottom: 11rem;
+        bottom: 9rem;
         right: 1rem;
     }
     
@@ -101,8 +94,6 @@ body{
         text-align: center;
         font-size: 0.5rem;
         border: 0.1rem solid #000000;
-        font-weight: 700;
-        margin-bottom: 0rem;
     }
     
         /* IMAGEN EN EL CUEPO */
@@ -118,7 +109,6 @@ body{
         font-size: 1rem;
         text-align: justify;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        margin-bottom: 0rem;
     }
 
     .nos-primero{
@@ -161,11 +151,10 @@ body{
         /* TITULO (h2) */
     .ubi-primero h2{
         padding: 1rem 2rem;
-        font-size: 1rem !important;
+        font-size: 1rem;
         margin:0rem;
         background-color: rgba(125, 143, 95, 0.46);
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        font-weight: 700;
     }
 
         /* PARRAFO */
@@ -196,7 +185,6 @@ body{
         padding: 1rem 2rem;
         padding-left: 2rem;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        font-weight: 700;
     }
 
         /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
@@ -219,17 +207,6 @@ body{
         font-size: 1rem;
     }
 
-    .row{
-        padding: 1rem 3rem;
-        background: rgba(174, 148, 112, 0.245) 0;
-        margin-right: 0rem;
-    }
-
-    .row .card{
-        margin-bottom: 1rem;
-    }
-
-
         /* ESTRUCTURA Y POSICION DE LA SECCION */
     .servic-segundo {
         background: rgba(174, 148, 112, 0.245) 0;
@@ -239,7 +216,86 @@ body{
         align-items: center;
 
     }
-    
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.3rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.3rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+
     /* TITULO (h2) */
     .con-primero h2{
         font-size: 0.9rem;
@@ -312,7 +368,6 @@ body{
     .footer .footer-titulo h4{
         font-size: 1rem;
         margin-bottom: 1rem;
-        font-weight: 700;
     }
     
     .footer .grid {
@@ -423,7 +478,7 @@ body{
     
     /* ICONO WHATSAPP */
     .whatsapp{
-        bottom: 12rem;
+        bottom: 7.5rem;
         right: 3rem;
     }
     
@@ -441,8 +496,6 @@ body{
         text-align: center;
         font-size: 1.2rem;
         border: 0.1rem solid #000000;
-        margin: 0rem;
-        font-weight: 700;
     }
 
     .sec-segunda {
@@ -453,8 +506,8 @@ body{
     
         /* IMAGEN EN EL CUEPO */
     .sec-segunda img{
-        /*width: 8rem;*/
-        height: 14rem;
+        width: 8rem;
+        height: 12rem;
         padding: 3rem 2rem 3rem 5rem;
     }
         /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
@@ -463,7 +516,6 @@ body{
         line-height: 1.2rem;
         font-size: 1.2rem;
         text-align: justify;
-        margin-bottom: 0rem;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
     }
 
@@ -477,7 +529,6 @@ body{
         padding: 1rem 3rem;
         background-color: rgba(125, 143, 95, 0.46);
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        font-weight: 700;
     }
     
         /* PARRAFO */
@@ -541,7 +592,6 @@ body{
         margin:0rem;
         padding: 1rem 3rem;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        font-weight: 700;
     }
 
         /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
@@ -569,16 +619,96 @@ body{
         text-shadow: 0.2rem 0.2rem 0.3rem black;
     }
 
-    .row{
-        padding: 1rem 3rem;
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         background: rgba(174, 148, 112, 0.245) 0;
-        margin-right: 0rem;
+        padding: 2rem 3rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
     }
 
-    .row .card{
-        margin-bottom: 1rem;
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        text-align: justify;
     }
-        
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+
     /* TITULO (h2) */
     .con-primero h2{
         font-size: 1rem;
@@ -653,7 +783,6 @@ body{
     .footer .footer-titulo h4{
         font-size: 1rem;
         margin-bottom: 1rem;
-        font-weight: 700;
     }
 
     .footer .grid {
@@ -782,8 +911,8 @@ body{
     
     /* ICONO WHATSAPP */
     .whatsapp{
-        bottom: 14rem;
-        right: 3rem;
+        bottom: 10rem;
+        right: 1rem;
     }
     
         /* DIMENCIONES DEL ICONO */
@@ -799,8 +928,6 @@ body{
         text-align: center;
         font-size: 1.7rem;
         border: 0.1rem solid #000000;
-        margin-bottom: 0rem;
-        font-weight: 700;
     }
 
     .sec-segunda {
@@ -811,8 +938,8 @@ body{
     
         /* IMAGEN EN EL CUEPO */
     .sec-segunda img{
-        width: 18rem;
-        /*height: 14rem;*/
+        width: 12rem;
+        height: 14rem;
         padding: 3rem 1rem 3rem 7rem;
     }
         /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
@@ -821,7 +948,6 @@ body{
         line-height: 2rem;
         font-size: 1.3rem;
         text-align: justify;
-        margin-bottom: 0rem;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
     }
 
@@ -898,7 +1024,6 @@ body{
         margin:0rem;
         padding: 1rem 6rem;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        font-weight: 700;
     }
 
         /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
@@ -926,16 +1051,95 @@ body{
         text-shadow: 0.2rem 0.2rem 0.3rem black;
     }
 
-    .row{
-        padding: 1rem 8rem;
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         background: rgba(174, 148, 112, 0.245) 0;
-        margin-right: 0rem;
+        padding: 2rem 6rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
     }
 
-    .row .card{
-        margin-bottom: 1rem;
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        text-align: justify;
     }
-    
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
 
     /* TITULO (h2) */
     .con-primero h2{
@@ -1012,7 +1216,6 @@ body{
     .footer .footer-titulo h4{
         font-size: 1rem;
         margin-bottom: 1rem;
-        font-weight: 700;
     }
 
     .footer .grid {
@@ -1140,7 +1343,7 @@ body{
     
     /* ICONO WHATSAPP */
     .whatsapp{
-        bottom: 17rem;
+        bottom: 11rem;
         right: 6rem;
     }
     
@@ -1155,9 +1358,8 @@ body{
         padding: 1rem 6rem;
         background-color: #b1b1b1;
         text-align: center;
+        font-size: 2rem;
         border: 0.1rem solid #000000;
-        margin: 0rem;
-        font-weight: 700;
     }
 
     .sec-segunda {
@@ -1168,7 +1370,8 @@ body{
     
         /* IMAGEN EN EL CUEPO */
     .sec-segunda img{
-        width: 18rem;
+        width: 12rem;
+        height: 14rem;
         padding: 3rem 1rem 3rem 7rem;
     }
         /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
@@ -1177,7 +1380,6 @@ body{
         line-height: 2rem;
         font-size: 1.3rem;
         text-align: justify;
-        margin-bottom: 0rem;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
     }
 
@@ -1253,7 +1455,6 @@ body{
         margin:0rem;
         padding: 1rem 10rem;
         text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        font-weight: 700;
     }
 
         /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
@@ -1281,14 +1482,93 @@ body{
         text-shadow: 0.2rem 0.2rem 0.3rem black;
     }
 
-    .row{
-        padding: 1rem 12rem;
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         background: rgba(174, 148, 112, 0.245) 0;
-        margin-right: 0rem;
+        padding: 2rem 10rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1.5rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
     }
 
-    .row .card{
-        margin-bottom: 1rem;
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2.8rem 0.5rem;
+        text-align: center;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1.2rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1.5rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1.2rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
     }
 
     /* TITULO (h2) */
@@ -1363,9 +1643,8 @@ body{
 
         /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
     .footer .footer-titulo h4{
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-        font-weight: 700;
+        font-size: 1.5rem !important;
+        margin-bottom: 1rem !important;
     }
 
     .footer .grid {
@@ -1446,6 +1725,440 @@ body{
     
     .footer .grid .ciudad p{
         font-size: 1.5rem;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .header {
+        padding: 1rem 10rem;
+    }
+
+    .header img{
+        width: 10rem;
+    }
+
+    .header img:hover{
+        opacity: 80%;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .header nav ul li a{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        color: #f3f0f0;
+    }
+
+    .header li a:hover {
+        background-color: #a3a3a3;
+        color: #000000;
+        border: 0.1rem solid #000000;
+        border-radius: 1rem;
+
+    }
+
+    .header .menu{
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+    }
+    
+    .img{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /* ICONO WHATSAPP */
+    .whatsapp{
+        bottom: 10rem;
+        right: 1rem;
+    }
+    
+        /* DIMENCIONES DEL ICONO */
+    .whatsapp img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* TITULO (h1) */
+    .titulo{    
+        padding: 1rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+    }
+
+    .sec-segunda {
+        display: flex;
+        background-color: rgba(125, 143, 95, 0.46);
+        align-items: center;
+    }
+    
+        /* IMAGEN EN EL CUEPO */
+    .sec-segunda img{
+        width: 12rem;
+        height: 14rem;
+        padding: 3rem 1rem 3rem 10rem;
+    }
+        /* PARRAFO QUE ACOMPAÑA A LA IMAGEN DEL CUERPO */
+    .sec-segunda .parrafo{
+        padding: 4rem 10rem 5rem 1rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+        text-align: justify;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+    .nos-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+    
+        /* TITULO (h2) */
+    .nos-primero h2{
+        font-size: 1.2rem;
+        padding: 1rem 10rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+    
+        /* PARRAFO */
+    .nos-primero p{
+        font-size: 1rem;
+        text-align: justify;
+        margin: auto;
+        padding: 2rem 10rem;
+        line-height: 2rem;
+    }
+    
+        /* IMAGEN QUE ACOMPAÑA AL PARRAFO */
+    .nos-primero p img{
+        height: 10rem;
+        width: 10rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        float: left;
+    }
+
+    /* COLOR DE FONDO DEL TITULO (h2)*/
+    .ubi-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .ubi-primero h2{
+        padding: 1rem 10rem;
+        font-size: 1.1rem;
+        margin:0rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAFO */
+    .ubi-primero p{
+        font-size: 1rem;
+        margin:0rem;
+        padding: 2rem 10rem;
+    }
+
+        /* MAPA DE UBICACION */
+    .ubi-primero iframe{
+        margin: 0rem;
+        padding: 2rem 10rem;
+        display: flex;
+        width: 85%;
+    }
+
+    /* ESTILO DE SECCION*/
+    .servic-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+    }
+
+        /* TITULO (h2) */
+    .servic-primero h2{
+        background-color: rgba(125, 143, 95, 0.46);
+        font-size: 1rem;
+        margin:0rem;
+        padding: 1rem 10rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+
+        /* PARRAGO ANTERIOR AL LA LISTA NO ORDENADA*/
+    .servic-primero p{
+        padding: 1rem 10rem;
+        font-size: 1rem;
+    }
+
+        /* ICONO PARA REEMPLAZAR A LOS ITEs DE LA LISTA NO ORDENADA */
+    .servic-primero ul{
+        list-style-image:url("../asset/img/check.png");
+        line-height: 2.5rem;
+        padding: 1rem 12rem ;
+        margin: auto 2rem;
+    }
+
+        /* POSICION Y TAMANO DE TEXTO DE LA LISTA NO ORDENADA */
+    .servic-primero ul li{
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .servic-primero ul li:hover{
+        margin: 1rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem black;
+    }
+
+        /* ESTRUCTURA Y POSICION DE LA SECCION */
+    .servic-segundo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding: 2rem 10rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+        /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
+    .servic-segundo .p-1{
+        padding: 0.5rem;
+        margin: 1rem 4rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-1 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        text-align: center;
+    }
+
+        /* ORDENAMIENTO DEL PRIMER ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-1 a {
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL PRIMER BOTON */
+    .servic-segundo .p-1 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO*/
+    .servic-segundo .p-1 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+        /* ESTILO Y POSICIONAMIENTO DEL SEGUNDO PARRADO CON SU BOTON */
+    .servic-segundo .p-2{
+        /*align-items:start;*/
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        background-color: #c3c1c1;
+    }
+
+        /* ESTILO PARRAFO INTERNO*/
+    .servic-segundo .p-2 p{
+        margin: 0;
+        padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+        text-align: justify;
+    }
+
+        /* ORDENAMIENTO DEL SEGUNDO ENLACE ABSOLUTO (BOTON) */
+    .servic-segundo .p-2 a{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+
+        /* ESTILO DEL SEGUNDO BOTON */
+    .servic-segundo .p-2 a button{
+        color: #000000;
+        padding: 0.6rem 1.3rem;
+        border-radius: 0.3rem;
+        border: 0.15rem solid #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: #76CCB2;
+    }
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .servic-segundo .p-2 a button:hover {
+        background-color:#9EE5C4;
+    }
+
+    /* TITULO (h2) */
+    .con-primero h2{
+        font-size: 1rem;
+        margin: auto;
+        padding: 1rem 10rem;
+        background-color: rgba(125, 143, 95, 0.46);
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    }
+        /* ESTILO DEL FONDO DEL PARRAFO Y EL ENLACE */
+    .con-primero{
+        background: rgba(174, 148, 112, 0.245) 0;
+        padding-bottom: 2rem;
+    }
+        /* PARRAFO */
+    .con-primero p{
+        padding: 1rem 10rem;
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .con-primero p a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* ESTILO PARA EL FOMULARIO */
+    .con-primero form {
+        max-width: 25rem;
+        margin: auto;
+        padding-bottom: 2rem;
+        padding: 1.25rem;
+        background-color: #9b9696;
+        border-radius: 0.625rem;
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    }
+        /* ESTILO DE LAVELs DEL FOMULARIO */
+    .con-primero label {
+        display: block;
+        margin-bottom: 0.2rem;
+        color: #000000;
+    }
+
+        /* ESTILO PARA LOS 'IMPUTs' Y EL CAMPO 'MENSAJE' DEL FORMULARIO */
+    .con-primero input, textarea {
+        width: 95%;
+        padding: 0.6rem;
+        border: 0.2rem solid #ccc;
+        border-radius: 0.25;
+        margin-bottom: 0.6rem;
+        resize: none;
+    }
+
+        /* ESTILO PARA EL BOTON 'ENVIAR' */
+    .con-primero input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        width: 25rem;
+    }
+
+        /* CAMBIO DE ESTILO AL POSICIONAR EL PUNTERO */
+    .con-primero input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    /* ESTILO GENERAL PARA EL PIE DE PAGINA */
+    .footer {
+        background-color: #605f5f;
+        padding: 3rem 10rem;        
+    }
+
+        /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
+    .footer .footer-titulo h4{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .footer .grid .titulo-redes{
+        color: #000000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .footer .grid .ig{
+        display: flex;
+    }
+    
+    .footer .grid .ig img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .ig a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .facebook{
+        display: flex;
+    }
+    
+    .footer .grid .facebook img{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer .grid .facebook a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .footer .grid .titulo-contactoPersonal{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .numero p{
+        align-items: center;
+    }
+    
+    .footer .grid .e-mail p{
+        align-items: center;
+    }
+    
+    .footer .grid .titulo-direccion{
+        color: #000000;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .footer .grid .direccion p{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer .grid .ciudad p{
         margin: auto;
     }
 }
