@@ -18,7 +18,28 @@ body{
     top: 0;
 }
 .whatsapp{
-    position: fixed;
+    position: fixed !important;
+}
+
+.sec-segunda {
+    display: flex;
+    background-color: rgba(125, 143, 95, 0.46);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.servic-primero ul li:hover{
+    margin: 1rem;
+    text-shadow: 0.2rem 0.2rem 0.3rem black;
+}
+
+.servic-primero ul li:active {
+    color: blue;
+}
+
+.footer {
+    background-color: #605f5f;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
@@ -40,7 +61,7 @@ body{
         display: flex;
         width: 100%;
         height: 18.75rem;
-        object-fit: cover;
+        object-fit: cover; /*cubre el ancho de la ventada */
     } 
 
     .img{
@@ -66,18 +87,12 @@ body{
     }
 
     /* TITULO (h1) */
-    .titulo{    
+    .titulo h1{    
         padding: 0.5rem;
         background-color: #b1b1b1;
         text-align: center;
         font-size: 0.5rem;
         border: 0.1rem solid #000000;
-    }
-
-    .sec-segunda {
-        display: flex;
-        background-color: rgba(125, 143, 95, 0.46);
-        align-items: center;
     }
     
         /* IMAGEN EN EL CUEPO */
@@ -202,7 +217,6 @@ body{
     }
         /* ESTILO Y POSICIONAMIENTO DEL PRIMER PARRADO CON SU BOTON */
     .servic-segundo .p-1{
-        /*align-items:center;*/
         padding: 0.5rem;
         margin: 1rem;
         font-size: 1rem;
@@ -332,7 +346,7 @@ body{
         margin-bottom: 0.6rem;
         resize: none;
     }
-
+       
         /* ESTILO PARA EL BOTON 'ENVIAR' */
     .con-primero input[type="submit"] {
         background-color: #4CAF50;
@@ -347,14 +361,12 @@ body{
     
     /* FOOTER */
     .footer {
-        background-color: #605f5f;
         padding: 1rem;
     }
 
     .footer .footer-titulo h4{
         font-size: 1rem;
-        margin-bottom: 0.5rem;
-        font-weight: 700;
+        margin-bottom: 1rem;
     }
     
     .footer .grid {
@@ -601,6 +613,11 @@ body{
         font-size: 1rem;
     }
 
+    .servic-primero ul li:hover{
+        margin: 1rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem black;
+    }
+
         /* ESTRUCTURA Y POSICION DE LA SECCION */
     .servic-segundo {
         display: grid;
@@ -758,7 +775,6 @@ body{
 
     /* ESTILO GENERAL PARA EL PIE DE PAGINA */
     .footer {
-        background-color: #605f5f;
         padding: 1rem 3rem;
     }
 
@@ -989,7 +1005,7 @@ body{
     .ubi-primero iframe{
         margin: 0rem;
         padding: 2rem 6rem;
-        display: flex;
+        display: block;
         width: 85%;
     }
 
@@ -1025,6 +1041,11 @@ body{
     .servic-primero ul li{
         padding-left: 1rem;
         font-size: 1rem;
+    }
+
+    .servic-primero ul li:hover{
+        margin: 1rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem black;
     }
 
         /* ESTRUCTURA Y POSICION DE LA SECCION */
@@ -1450,6 +1471,11 @@ body{
         font-size: 1.5rem;
     }
 
+    .servic-primero ul li:hover{
+        margin: 1rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem black;
+    }
+
         /* ESTRUCTURA Y POSICION DE LA SECCION */
     .servic-segundo {
         display: grid;
@@ -1624,7 +1650,7 @@ body{
 
     .footer .grid .titulo-redes{
         color: #000000;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0.5rem 0;
     }
     
@@ -1664,7 +1690,7 @@ body{
     
     .footer .grid .titulo-contactoPersonal{
         color: #000000;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 0.5rem;
     }
     
@@ -1681,7 +1707,7 @@ body{
     
     .footer .grid .titulo-direccion{
         color: #000000;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 0.5rem;
     }
     
@@ -1884,6 +1910,11 @@ body{
         font-size: 1rem;
     }
 
+    .servic-primero ul li:hover{
+        margin: 1rem;
+        text-shadow: 0.2rem 0.2rem 0.3rem black;
+    }
+
         /* ESTRUCTURA Y POSICION DE LA SECCION */
     .servic-segundo {
         display: grid;
@@ -2046,8 +2077,8 @@ body{
     }
 
         /* ESTILO PARA EL TITULO (h4) DEL PIE DE PAGINA*/
-    .footer .footer-titulo{
-        font-size: 1rem;
+    .footer .footer-titulo h4{
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
 
