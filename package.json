@@ -1,0 +1,11 @@
+{
+  "name": "desarrollowebflex-comision56575-nicolassebastianripani",
+  "version": "1.0.0",
+  "description": "En este proyecto, por ser el primiero, no he creado ramas antes de introdicir cambios para luego agregarlos y su posterior confirmación. \r Esto no quire decir no quize crear ramas, sino que se me olvido crearlas. Dicho esto, se intento introducir los contenidos dados en las clases.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
