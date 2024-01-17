@@ -1,0 +1,53 @@
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .header{
+        nav {
+            ul {
+                li{
+                    list-style-type: none;
+                    display: none;
+                }
+            }
+        }
+        img{
+            width: 6rem;
+            height: 3rem;
+        }
+        .menu {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+    .titulo h1{    
+        padding: 0.5rem;
+        background-color: #b1b1b1;
+        text-align: center;
+        font-size: 1rem;
+        border: 0.1rem solid #000000;
+        font-weight: 700;
+        margin: 0rem;
+    }
+    .cuerpo {
+        display: flex;
+        background-color: rgba(125, 143, 95, 0.46);
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        .img{
+            // display: flex;
+            justify-content: center;
+            text-align: justify;
+            width: 7rem;
+            // height: 1rem;
+            padding-left: 1rem;
+        }
+        .parrafo{
+            padding: 1.5rem;
+            margin: 0rem;
+            line-height: 1rem;
+            font-size: 1rem;
+            text-align: justify;
+            text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+        }
+    }
+}
