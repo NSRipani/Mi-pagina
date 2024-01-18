@@ -50,4 +50,92 @@
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
         }
     }
+    .whatsapp img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .footer {
+        padding: 1rem;
+        .footer-titulo h4{
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 0.5rem;
+            column-gap: 0.5rem;
+            align-items: center;
+            justify-content: center;
+            .titulo-redes {
+                margin: auto;
+                p{
+                    color: #000000;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    margin: auto;
+                }
+            }
+            .ig-linkedin{
+                display: flex;
+                justify-content: space-around;
+                img{
+                    display: flex;
+                    width: 1rem;
+                    height: 1rem;
+                    margin-right: 0.5rem;
+                }
+                a{
+                    text-decoration: none;
+                    color: #000000;
+                }
+            }
+            .facebook{
+                display: flex;
+                img{
+                    display: flex;
+                    width: 1rem;
+                    height: 1rem;
+                    margin-right: 0.5rem;
+                }
+                a{
+                    text-decoration: none;
+                    color: #000000;
+                }
+            }    
+            .titulo-contactoPersonal{
+                margin: auto;
+                p{
+                    color: #000000;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    margin: auto;
+                }
+            }
+            .numero p{
+                align-items: center;
+                margin: auto;
+            }
+            .e-mail p{
+                margin: auto;
+                align-items: center;
+            }
+            .titulo-direccion{
+                margin: auto;
+                p{
+                    color: #000000;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    margin: auto;
+                }
+            }
+            .direccion p{
+                margin: auto;
+            }
+            .ciudad p{
+                margin: auto;
+            }
+        }
+    }
 }
