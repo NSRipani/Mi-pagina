@@ -12,6 +12,39 @@ body{
     bottom: 8rem;
 }
 
+.nos-primero{
+    background: rgba(174, 148, 112, 0.245) 0;
+}
+.ubi-primero{
+    background: rgba(174, 148, 112, 0.245) 0;
+}
+.servic-primero{
+    background: rgba(174, 148, 112, 0.245) 0;
+}
+.con-primero{
+    background: rgba(174, 148, 112, 0.245) 0;
+    padding-bottom: 2rem;
+}
+.row {
+    background: rgba(174, 148, 112, 0.245) 0;
+    margin: auto;
+    .card {
+        margin-bottom: 1rem;
+        .card-body{
+            background-color: #ffffff;
+            border: 0.2rem solid #000000;
+        }
+    }
+    h5{
+        text-decoration: underline;
+    }
+    a:active{
+        background-color: #4CAF50;
+    }
+    a:hover{
+        animation-direction: alternate;
+    }
+}
 .footer {
     background-color: #605f5f;
 }
