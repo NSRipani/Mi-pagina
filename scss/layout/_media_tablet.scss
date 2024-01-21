@@ -204,10 +204,12 @@
     .footer {
         padding: 1rem 3rem;
         font-weight: 600;
-        .footer-titulo h4{
+        .footer-titulo {
+            h4{
             font-size: 1.5rem;
             margin-bottom: 1rem;
             font-weight: 700;
+            }
         }
         .grid {
             text-align: center;
@@ -237,7 +239,6 @@
                 }
                 a{
                     text-decoration: none;
-                    color: #000000;
                 }
             }
             .facebook{

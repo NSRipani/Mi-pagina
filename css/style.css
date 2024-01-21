@@ -14,6 +14,10 @@ body {
   bottom: 8rem;
 }
 
+.carousel-inner {
+  z-index: -1;
+}
+
 .nos-primero {
   background: rgba(174, 148, 112, 0.245) 0;
 }
@@ -33,22 +37,23 @@ body {
 
 .row {
   background: rgba(174, 148, 112, 0.245) 0;
-  margin: auto;
+  margin: 0rem;
 }
 .row .card {
-  margin-bottom: 1rem;
+  height: 100%;
 }
 .row .card .card-body {
   background-color: #ffffff;
   border: 0.2rem solid #000000;
 }
-.row h5 {
+.row .card .card-body h5 {
   text-decoration: underline;
 }
-.row a:active {
-  background-color: #4CAF50;
+.row .card .card-body .card-text-uno {
+  margin-bottom: 2.5rem;
 }
-.row a:hover {
+.row .card .card-body a:hover {
+  background-color: #4CAF50;
   animation-direction: alternate;
 }
 
@@ -553,7 +558,6 @@ body {
   }
   .footer .grid .ig-linkedin a {
     text-decoration: none;
-    color: #000000;
   }
   .footer .grid .facebook {
     display: flex;
@@ -603,6 +607,308 @@ body {
   .footer .grid .ciudad p {
     padding: 1rem;
     margin: auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    justify-content: space-between;
+    padding: 1rem 6rem;
+  }
+  .header nav {
+    display: flex;
+  }
+  .header nav ul {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+  }
+  .header nav ul li {
+    list-style-type: none;
+  }
+  .header nav ul li a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #cfcfcf;
+  }
+  .header nav ul li a:hover {
+    background-color: #a3a3a3;
+    color: #000000;
+    border: 0.1rem solid #000000;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    transition: 0.5s;
+  }
+  .header img {
+    width: 10rem;
+    height: 5rem;
+  }
+  .header .menu {
+    width: 4rem;
+    height: 5rem;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .img img {
+    width: 25rem;
+    height: 20rem;
+  }
+  .whatsapp {
+    bottom: 14rem;
+    right: 6rem;
+  }
+  .whatsapp img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .titulo h1 {
+    padding: 0.5rem 6rem;
+    background-color: #b1b1b1;
+    text-align: center;
+    font-size: 1.7rem;
+    border: 0.1rem solid #000000;
+    margin: 0rem;
+    font-weight: 700;
+  }
+  .cuerpo {
+    display: flex;
+    background-color: rgba(125, 143, 95, 0.46);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .cuerpo img {
+    justify-content: center;
+    text-align: justify;
+    width: 18rem;
+    padding: 3rem 2rem 3rem 6rem;
+  }
+  .cuerpo p {
+    padding: 3rem 6rem 3rem 0rem;
+    margin: auto;
+    line-height: 2rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .nos-primero h2 {
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+    margin: 0rem;
+    background-color: rgba(125, 143, 95, 0.46);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .nos-primero p {
+    font-size: 1.5rem;
+    padding: 3rem 6rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin: auto;
+  }
+  .nos-primero p img {
+    width: 10rem;
+    height: 10rem;
+    padding: 0.8rem;
+    display: flex;
+    float: left;
+  }
+  .ubi-primero h2 {
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+    margin: 0rem;
+    background-color: rgba(125, 143, 95, 0.46);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .ubi-primero p {
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 3rem 6rem;
+  }
+  .ubi-primero iframe {
+    margin: 0rem;
+    padding: 2rem 6rem;
+    display: flex;
+    width: 80%;
+  }
+  .servic-primero h2 {
+    background-color: rgba(125, 143, 95, 0.46);
+    font-size: 1.5rem;
+    margin: 0rem;
+    padding: 1rem 6rem;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .servic-primero p {
+    padding: 1rem 6rem;
+    font-size: 1.2rem;
+  }
+  .servic-primero ul {
+    list-style-image: url("../asset/img/check.png");
+    line-height: 2rem;
+    padding: 1rem 8rem;
+    margin: auto 2rem;
+  }
+  .servic-primero ul li {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .servic-primero ul li li:hover {
+    margin: 1rem;
+    text-shadow: 0.2rem 0.2rem 0.3rem black;
+  }
+  .servic-segundo {
+    background: rgba(174, 148, 112, 0.245) 0;
+    padding: 2rem 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    padding: 5rem 6rem;
+    height: 100%;
+  }
+  .con-primero h2 {
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 1rem 6rem;
+    background-color: rgba(125, 143, 95, 0.46);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .con-primero p {
+    padding: 1rem 6rem;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+  .con-primero p a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .con-primero form {
+    max-width: 25rem;
+    margin: auto;
+    padding: 1.25rem;
+    background-color: #9b9696;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  }
+  .con-primero form label {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #000000;
+  }
+  .con-primero form input, .con-primero form textarea {
+    width: 95%;
+    padding: 0.6rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 0.6rem;
+    resize: none;
+  }
+  .con-primero form input[type=submit] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    width: 25rem;
+  }
+  .con-primero form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .footer {
+    padding: 1rem 6rem;
+    font-weight: 600;
+  }
+  .footer .footer-titulo h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  .footer .grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .grid .titulo-redes {
+    margin: auto;
+  }
+  .footer .grid .titulo-redes p {
+    color: #000000;
+    font-size: 1.6rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .ig-linkedin {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .grid .ig-linkedin img {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .footer .grid .ig-linkedin a {
+    text-decoration: none;
+  }
+  .footer .grid .facebook {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  .footer .grid .facebook img {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .footer .grid .facebook a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+  }
+  .footer .grid .titulo-contactoPersonal {
+    margin: auto;
+  }
+  .footer .grid .titulo-contactoPersonal p {
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .numero p {
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .e-mail p {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  .footer .grid .titulo-direccion {
+    margin: auto;
+  }
+  .footer .grid .titulo-direccion p {
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .direccion p {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  .footer .grid .ciudad p {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.1rem;
   }
 }
 

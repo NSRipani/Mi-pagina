@@ -12,6 +12,10 @@ body{
     bottom: 8rem;
 }
 
+.carousel-inner{
+    z-index: -1;
+}
+
 .nos-primero{
     background: rgba(174, 148, 112, 0.245) 0;
 }
@@ -27,22 +31,25 @@ body{
 }
 .row {
     background: rgba(174, 148, 112, 0.245) 0;
-    margin: auto;
+    margin: 0rem;
     .card {
-        margin-bottom: 1rem;
+        height: 100%;
         .card-body{
             background-color: #ffffff;
             border: 0.2rem solid #000000;
+            h5{
+                text-decoration: underline;
+            }
+            .card-text-uno{
+                    margin-bottom: 2.5rem;
+                }
+            a{
+                &:hover{
+                background-color: #4CAF50;
+                animation-direction: alternate;
+                }          
+            }
         }
-    }
-    h5{
-        text-decoration: underline;
-    }
-    a:active{
-        background-color: #4CAF50;
-    }
-    a:hover{
-        animation-direction: alternate;
     }
 }
 .footer {
