@@ -1,0 +1,35 @@
+form {
+    max-width: 25rem;
+    margin: auto;
+    // padding-bottom: 2rem;
+    padding: 1.25rem;
+    background-color: #9b9696;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+
+    label {
+        display: block;
+        margin-bottom: 0.2rem;
+        color: #000000;
+    }
+
+    input, textarea {
+        width: 95%;
+        padding: 0.6rem;
+        border: 0.2rem solid #ccc;
+        border-radius: 0.25rem;
+        margin-bottom: 0.6rem;
+        resize: none;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        width: 20.5rem;
+
+        &:hover {
+            background-color: #45a049;
+        }
+    }
+}

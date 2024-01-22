@@ -1,46 +1,65 @@
-@media only screen and (min-width: 426px) and (max-width: 768px){
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .header{
-        padding: 1rem 3rem;
+        justify-content: space-between;
+        padding: 1rem 10rem;
         nav {
+            display: flex;
             ul {
+                justify-content: space-between;
+                align-items: center;
+                margin: 0rem;
+                padding: 0rem;
+                display: flex;
                 li{
                     list-style-type: none;
-                    display: none;
+                    a {
+                        padding: 0.5rem;
+                        text-decoration: none;
+                        color: #cfcfcf;
+                        &:hover{
+                            background-color: #a3a3a3;
+                            color: #000000;
+                            border: 0.1rem solid #000000;
+                            border-radius: 0.5rem;
+                            margin: 0.5rem;
+                            transition: 0.5s;
+                        }
+                    }
                 }
             }
         }
-        img{
-            width: 6rem;
-            height: 3rem;
-        }
-        .menu {
-            width: 3rem;
-            height: 3rem;
-        }
     }
-    .whatsapp{
-        bottom: 12rem;
-        right: 3rem;
-        img {
-            width: 2rem;
-            height: 2rem;
-        }
+    img{
+        width: 9rem;
+        height: 4rem;
+    }
+    .menu {
+        width: 3rem;
+        height: 4rem;
     }
     .img{
         display: flex;
         justify-content: center;
         text-align: justify;
         img{
-            width: 18rem;
-            height: 13rem;
+            width: 25rem;
+            height: 20rem;
+        }
+    }
+    .whatsapp{
+        bottom: 14rem;
+        right: 6rem;
+        img {
+            width: 2.5rem;
+            height: 2.5rem;
         }
     }
     .titulo {
         h1{    
-            padding: 0.5rem 3rem; //cambia
+            padding: 1.5rem 10rem; //cambia
             background-color: #b1b1b1;
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1.7rem; //cambia
             border: 0.1rem solid #000000;
             margin: 0rem;
             font-weight: 700;
@@ -57,36 +76,36 @@
             justify-content: center;
             text-align: justify;
             width: 18rem;
-            padding: 3rem 2rem 3rem 5rem;
+            padding: 3rem 1rem 3rem 10rem;
         }
         p {
-            padding: 3rem 5rem 3rem 0rem;
+            padding: 3rem 10rem 3rem 0rem;
             margin: auto;
-            line-height: 1.7rem;
-            font-size: 1.5rem;
+            line-height: 2.5rem;
+            font-size: 1.8rem;
             text-align: justify;
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
         }
     }
     .nos-primero{
         h2{
-            padding: 1rem 3rem;
-            font-size: 1rem;
+            padding: 1rem 10rem;
+            font-size: 1.5rem;
             margin: 0rem;
             background-color: rgba(125, 143, 95, 0.46);
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
         }
         p{
-            font-size: 1rem;
-            padding: 3rem;
-            line-height: 1.5rem;
+            font-size: 1.5rem;
+            padding: 3rem 10rem;
+            line-height: 3rem;
             
             text-align: justify;
             margin: auto;
             img{
-                width: 9rem;
-                height: 9rem;
-                padding: 0.5rem;
+                width: 16rem;
+                height: 14rem;
+                padding: 0.5rem 1rem;
                 display: flex;
                 float: left;
             }
@@ -94,8 +113,8 @@
     }
     .ubi-primero{
         h2{
-            padding: 1rem 3rem;
-            font-size: 1rem;
+            padding: 1rem 10rem;
+            font-size: 1.5rem;
             margin:0rem;
             background-color: rgba(125, 143, 95, 0.46);
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
@@ -103,13 +122,13 @@
         p{
             font-size: 1rem;
             margin:0rem;
-            padding: 3rem;
+            padding: 3rem 10rem;
         }
         iframe{
             margin: 0rem;
-            padding: 2rem 3rem;
+            padding: 2rem 10rem;
             display: flex;
-            width: 85%;
+            width: 80%;
         }
     }
     .servic-primero {
@@ -117,17 +136,17 @@
             background-color: rgba(125, 143, 95, 0.46);
             font-size: 1.5rem;
             margin:0rem;
-            padding: 1rem 3rem; // cambia
+            padding: 1rem 10rem; // cambia
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);   
         }
         p{
-            padding: 1rem 3rem;// cambia
-            font-size: 1rem;
+            padding: 1rem 10rem;// cambia
+            font-size: 1.2rem;
         }
         ul{
             list-style-image:url("../asset/img/check.png");
-            line-height: 2rem;
-            padding: 1rem 4rem ;// cambia
+            line-height: 3rem;
+            padding: 1rem 12rem ;// cambia
             margin: auto 2rem;
             li{
                 padding-left: 1rem;
@@ -141,25 +160,26 @@
     }
     .servic-segundo {
         background: rgba(174, 148, 112, 0.245) 0;
-        padding: 2rem 3rem;
+        padding: 2rem 10rem;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
     .row{
-        padding: 3rem;
+        padding: 5rem 10rem;
+        height: 100%;
     }
     .con-primero {
         h2{
-            font-size: 1rem;
+            font-size: 1.5rem;
             margin: auto;
-            padding: 1rem 3rem;
+            padding: 1rem 6rem;
             background-color: rgba(125, 143, 95, 0.46);
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
         }
         p{
-            padding: 1rem 3rem;
-            font-size: 1rem;
+            padding: 1rem 6rem;
+            font-size: 1.2rem;
             margin: auto;
             a{
                 text-decoration: none;
@@ -169,7 +189,6 @@
         form {
             max-width: 25rem;
             margin: auto;
-            // padding-botom: 2rem;
             padding: 1.25rem;
             background-color: #9b9696;
             border-radius: 0.625rem;
@@ -202,13 +221,13 @@
         }
     }
     .footer {
-        padding: 1rem 3rem;
+        padding: 1rem 10rem;
         font-weight: 600;
         .footer-titulo {
             h4{
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             margin-bottom: 1rem;
-            font-weight: 700;
+            // font-weight: 700;
             }
         }
         .grid {
@@ -223,7 +242,7 @@
                 margin: auto;
                 p{
                     color: #000000;
-                    font-size: 1.2rem;
+                    font-size: 1.6rem;    
                     padding: 0.5rem 0rem;
                     margin: 1rem;
                 }
@@ -233,8 +252,8 @@
                 justify-content: center;
                 img{
                     display: flex;
-                    width: 1rem;
-                    height: 1rem;
+                    width: 2rem;
+                    height: 2rem;
                     margin-right: 0.5rem;
                 }
                 a{
@@ -243,24 +262,26 @@
             }
             .facebook{
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
+                align-items: center;
                 padding: 1rem;
                 img{
                     display: flex;
-                    width: 1rem;
-                    height: 1rem;
+                    width: 2rem;
+                    height: 2rem;
                     margin-right: 0.5rem;
                 }
                 a{
                     text-decoration: none;
                     color: #000000;
+                    font-size: 1.2rem;
                 }
             }   
             .titulo-contactoPersonal{
                 margin: auto;
                 p{
                     color: #000000;
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     padding: 0.5rem 0rem;
                     margin: 1rem;
                 }
@@ -269,19 +290,23 @@
                 p{
                     margin: auto;
                     padding: 1rem;
+                    font-size: 1.1rem;
+                    // font-weight: 800;
                 }
             }
             .e-mail{
                 p{
                     padding: 1rem;
                     margin: auto;
+                    font-size: 1.1rem;
+                    // font-weight: 800;
                 }    
             }
             .titulo-direccion{
                 margin: auto;
                 p{
                     color: #000000;
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     padding: 0.5rem 0rem;
                     margin: 1rem;
                 }
@@ -290,12 +315,16 @@
                 p{
                     padding: 1rem;
                     margin: auto;
+                    font-size: 1.1rem;
+                    // font-weight: 800;
                 }
             }
             .ciudad {
                 p{
                     padding: 1rem;
                     margin: auto;
+                    font-size: 1.1rem;
+                    // font-weight: 800;
                 }
             }
         }
