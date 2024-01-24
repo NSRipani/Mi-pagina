@@ -19,25 +19,25 @@ body {
 }
 
 .nos-primero {
-  background: rgba(174, 148, 112, 0.245) 0;
+  background-color: rgba(174, 148, 112, 0.245) 0;
 }
 
 .ubi-primero {
-  background: rgba(174, 148, 112, 0.245) 0;
+  background-color: rgba(174, 148, 112, 0.245) 0;
 }
 
 .servic-primero {
-  background: rgba(174, 148, 112, 0.245) 0;
+  background-color: rgba(174, 148, 112, 0.245) 0;
 }
 
 .con-primero {
-  background: rgba(174, 148, 112, 0.245) 0;
+  background-color: rgba(174, 148, 112, 0.245) 0;
   padding-bottom: 2rem;
 }
 
 .row {
-  background: rgba(174, 148, 112, 0.245) 0;
-  margin: 0rem;
+  background-color: rgba(174, 148, 112, 0.245) 0;
+  margin: auto;
 }
 .row .card {
   height: 100%;
@@ -87,12 +87,7 @@ body {
   }
   .titulo h1 {
     padding: 0.5rem;
-    background-color: #b1b1b1;
-    text-align: center;
     font-size: 1rem;
-    border: 0.1rem solid #000000;
-    font-weight: 700;
-    margin: 0rem;
   }
   .cuerpo {
     display: flex;
@@ -339,12 +334,7 @@ body {
   }
   .titulo h1 {
     padding: 0.5rem 3rem;
-    background-color: #b1b1b1;
-    text-align: center;
     font-size: 1.2rem;
-    border: 0.1rem solid #000000;
-    margin: 0rem;
-    font-weight: 700;
   }
   .cuerpo {
     display: flex;
@@ -456,36 +446,6 @@ body {
   .con-primero p a {
     text-decoration: none;
     color: #000000;
-  }
-  .con-primero form {
-    max-width: 25rem;
-    margin: auto;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-primero form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-primero form input, .con-primero form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-primero form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 25rem;
-  }
-  .con-primero form input[type=submit]:hover {
-    background-color: #45a049;
   }
   .footer {
     padding: 1rem 3rem;
@@ -635,12 +595,7 @@ body {
   }
   .titulo h1 {
     padding: 0.5rem 6rem;
-    background-color: #b1b1b1;
-    text-align: center;
     font-size: 1.7rem;
-    border: 0.1rem solid #000000;
-    margin: 0rem;
-    font-weight: 700;
   }
   .cuerpo {
     display: flex;
@@ -753,36 +708,6 @@ body {
   .con-primero p a {
     text-decoration: none;
     color: #000000;
-  }
-  .con-primero form {
-    max-width: 25rem;
-    margin: auto;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-primero form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-primero form input, .con-primero form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-primero form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 25rem;
-  }
-  .con-primero form input[type=submit]:hover {
-    background-color: #45a049;
   }
   .footer {
     padding: 1rem 6rem;
@@ -937,12 +862,7 @@ body {
   }
   .titulo h1 {
     padding: 1.5rem 10rem;
-    background-color: #b1b1b1;
-    text-align: center;
     font-size: 1.7rem;
-    border: 0.1rem solid #000000;
-    margin: 0rem;
-    font-weight: 700;
   }
   .cuerpo {
     display: flex;
@@ -1056,38 +976,262 @@ body {
     text-decoration: none;
     color: #000000;
   }
-  .con-primero form {
-    max-width: 25rem;
-    margin: auto;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-primero form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-primero form input, .con-primero form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-primero form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 25rem;
-  }
-  .con-primero form input[type=submit]:hover {
-    background-color: #45a049;
-  }
   .footer {
     padding: 1rem 10rem;
+    font-weight: 600;
+  }
+  .footer .footer-titulo h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .footer .grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .grid .titulo-redes {
+    margin: auto;
+  }
+  .footer .grid .titulo-redes p {
+    color: #000000;
+    font-size: 1.6rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .ig-linkedin {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .grid .ig-linkedin img {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .footer .grid .ig-linkedin a {
+    text-decoration: none;
+  }
+  .footer .grid .facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .footer .grid .facebook img {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+  .footer .grid .facebook a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+  }
+  .footer .grid .titulo-contactoPersonal {
+    margin: auto;
+  }
+  .footer .grid .titulo-contactoPersonal p {
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .numero p {
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .e-mail p {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  .footer .grid .titulo-direccion {
+    margin: auto;
+  }
+  .footer .grid .titulo-direccion p {
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .direccion p {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  .footer .grid .ciudad p {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1441px) {
+  .header {
+    justify-content: space-between;
+    padding: 1rem 14rem;
+  }
+  .header nav {
+    display: flex;
+  }
+  .header nav ul {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+  }
+  .header nav ul li {
+    list-style-type: none;
+  }
+  .header nav ul li a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #cfcfcf;
+  }
+  .header nav ul li a:hover {
+    background-color: #a3a3a3;
+    color: #000000;
+    border: 0.1rem solid #000000;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    transition: 0.5s;
+  }
+  img {
+    width: 9rem;
+    height: 4rem;
+  }
+  .menu {
+    width: 3rem;
+    height: 4rem;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .img img {
+    width: 30rem;
+    height: 25rem;
+  }
+  .whatsapp {
+    bottom: 14rem;
+    right: 6rem;
+  }
+  .whatsapp img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .titulo h1 {
+    padding: 1.5rem 14rem;
+    font-size: 1.7rem;
+  }
+  .cuerpo {
+    display: flex;
+    background-color: rgba(125, 143, 95, 0.46);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .cuerpo img {
+    width: 35rem;
+    height: 25rem;
+    padding: 3rem 2rem 5rem 14rem;
+  }
+  .cuerpo p {
+    padding: 3rem 14rem 5rem 5rem;
+    margin: auto;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .nos-primero h2 {
+    padding: 1rem 14rem;
+    font-size: 1.5rem;
+    margin: 0rem;
+    background-color: rgba(125, 143, 95, 0.46);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .nos-primero p {
+    font-size: 1.5rem;
+    padding: 3rem 14rem;
+    line-height: 3rem;
+    text-align: justify;
+    margin: auto;
+  }
+  .nos-primero p img {
+    width: 16rem;
+    height: 14rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    float: left;
+  }
+  .ubi-primero h2 {
+    padding: 1rem 14rem;
+    font-size: 1.5rem;
+    margin: 0rem;
+    background-color: rgba(125, 143, 95, 0.46);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .ubi-primero p {
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 3rem 14rem;
+  }
+  .ubi-primero iframe {
+    margin: 0rem;
+    padding: 2rem 14rem;
+    display: flex;
+    width: 75%;
+  }
+  .servic-primero h2 {
+    background-color: rgba(125, 143, 95, 0.46);
+    font-size: 1.5rem;
+    margin: 0rem;
+    padding: 1rem 14rem;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  }
+  .servic-primero p {
+    padding: 1.5rem 14rem;
+    font-size: 1.2rem;
+  }
+  .servic-primero ul {
+    list-style-image: url("../asset/img/check.png");
+    line-height: 3rem;
+    padding: 1rem 16rem;
+    margin: auto 2rem;
+  }
+  .servic-primero ul li {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .servic-primero ul li:hover {
+    margin: 1rem;
+    text-shadow: 0.2rem 0.2rem 0.3rem black;
+    transition: 1s;
+  }
+  .servic-primero ul li:active {
+    color: blue;
+  }
+  .servic-segundo {
+    background: rgba(174, 148, 112, 0.245) 0;
+    padding: 2rem 14rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    padding: 5rem 18rem;
+    height: 100%;
+  }
+  .footer {
+    padding: 1rem 14rem;
     font-weight: 600;
   }
   .footer .footer-titulo h4 {
@@ -1210,6 +1354,18 @@ form input[type=submit] {
 }
 form input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.whatsapp {
+  position: fixed;
+}
+
+.titulo h1 {
+  background-color: #b1b1b1;
+  border: 0.1rem solid #000000;
+  margin: 0rem;
+  text-align: center;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

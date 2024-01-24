@@ -1,9 +1,9 @@
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 1441px){
     .header{
         justify-content: space-between;
-        padding: 1rem 6rem;
+        padding: 1rem 14rem;
         nav {
-            display: flex;     
+            display: flex;
             ul {
                 justify-content: space-between;
                 align-items: center;
@@ -13,7 +13,7 @@
                 li{
                     list-style-type: none;
                     a {
-                        padding: 0.5rem;
+                        padding: 1rem;
                         text-decoration: none;
                         color: #cfcfcf;
                         &:hover{
@@ -28,22 +28,22 @@
                 }
             }
         }
-        img{
-            width: 10rem;
-            height: 5rem;
-        }
-        .menu {
-            width: 4rem;
-            height: 5rem;
-        }
+    }
+    img{
+        width: 9rem;
+        height: 4rem;
+    }
+    .menu {
+        width: 3rem;
+        height: 4rem;
     }
     .img{
         display: flex;
         justify-content: center;
         text-align: justify;
         img{
-            width: 25rem;
-            height: 20rem;
+            width: 30rem;   
+            height: 25rem;
         }
     }
     .whatsapp{
@@ -56,7 +56,7 @@
     }
     .titulo {
         h1{    
-            padding: 0.5rem 6rem; //cambia
+            padding: 1.5rem 14rem; //cambia
             font-size: 1.7rem; //cambia
         }
     }
@@ -67,16 +67,14 @@
         justify-content: center;
         margin: auto;
         img{
-            // display: flex;
-            justify-content: center;
-            text-align: justify;
-            width: 18rem;
-            padding: 3rem 2rem 3rem 6rem;
+            width: 35rem;
+            height: 25rem;
+            padding: 3rem 2rem 5rem 14rem;
         }
         p {
-            padding: 3rem 6rem 3rem 0rem;
+            padding: 3rem 14rem 5rem 5rem;
             margin: auto;
-            line-height: 2rem;
+            line-height: 2.5rem;
             font-size: 1.8rem;
             text-align: justify;
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
@@ -84,7 +82,7 @@
     }
     .nos-primero{
         h2{
-            padding: 1rem 6rem;
+            padding: 1rem 14rem;
             font-size: 1.5rem;
             margin: 0rem;
             background-color: rgba(125, 143, 95, 0.46);
@@ -92,15 +90,15 @@
         }
         p{
             font-size: 1.5rem;
-            padding: 3rem 6rem;
-            line-height: 1.5rem;
+            padding: 3rem 14rem;
+            line-height: 3rem;
             
             text-align: justify;
             margin: auto;
             img{
-                width: 10rem;
-                height: 10rem;
-                padding: 0.8rem;
+                width: 16rem;
+                height: 14rem;
+                padding: 0.5rem 1rem;
                 display: flex;
                 float: left;
             }
@@ -108,7 +106,7 @@
     }
     .ubi-primero{
         h2{
-            padding: 1rem 6rem;
+            padding: 1rem 14rem;
             font-size: 1.5rem;
             margin:0rem;
             background-color: rgba(125, 143, 95, 0.46);
@@ -117,13 +115,13 @@
         p{
             font-size: 1rem;
             margin:0rem;
-            padding: 3rem 6rem;
+            padding: 3rem 14rem;
         }
         iframe{
             margin: 0rem;
-            padding: 2rem 6rem;
+            padding: 2rem 14rem;
             display: flex;
-            width: 80%;
+            width: 75%;
         }
     }
     .servic-primero {
@@ -131,65 +129,51 @@
             background-color: rgba(125, 143, 95, 0.46);
             font-size: 1.5rem;
             margin:0rem;
-            padding: 1rem 6rem; // cambia
+            padding: 1rem 14rem; // cambia
             text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);   
         }
         p{
-            padding: 1rem 6rem;// cambia
+            padding: 1.5rem 14rem;// cambia
             font-size: 1.2rem;
         }
         ul{
             list-style-image:url("../asset/img/check.png");
-            line-height: 2rem;
-            padding: 1rem 8rem ;// cambia
+            line-height: 3rem;
+            padding: 1rem 16rem ;// cambia
             margin: auto 2rem;
             li{
                 padding-left: 1rem;
                 font-size: 1.5rem;
-                li:hover{
+                &:hover{
                     margin: 1rem;
                     text-shadow: 0.2rem 0.2rem 0.3rem black;
+                    transition: 1s;
+                }
+                &:active{
+                    color: blue;
                 }
             }
         }
     }
     .servic-segundo {
         background: rgba(174, 148, 112, 0.245) 0;
-        padding: 2rem 6rem;
+        padding: 2rem 14rem;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
     .row{
-        padding: 5rem 6rem;
+        padding: 5rem 18rem;
         height: 100%;
     }
-    .con-primero {
-        h2{
-            font-size: 1.5rem;
-            margin: auto;
-            padding: 1rem 6rem;
-            background-color: rgba(125, 143, 95, 0.46);
-            text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-        }
-        p{
-            padding: 1rem 6rem;
-            font-size: 1.2rem;
-            margin: auto;
-            a{
-                text-decoration: none;
-                color: #000000;
-            }
-        }
-    }
+    
     .footer {
-        padding: 1rem 6rem;
+        padding: 1rem 14rem;
         font-weight: 600;
         .footer-titulo {
             h4{
             font-size: 1.6rem;
             margin-bottom: 1rem;
-            font-weight: 700;
             }
         }
         .grid {
@@ -224,7 +208,8 @@
             }
             .facebook{
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
+                align-items: center;
                 padding: 1rem;
                 img{
                     display: flex;
@@ -252,7 +237,6 @@
                     margin: auto;
                     padding: 1rem;
                     font-size: 1.1rem;
-                    // font-weight: 800;
                 }
             }
             .e-mail{
@@ -260,7 +244,6 @@
                     padding: 1rem;
                     margin: auto;
                     font-size: 1.1rem;
-                    // font-weight: 800;
                 }    
             }
             .titulo-direccion{
@@ -277,7 +260,6 @@
                     padding: 1rem;
                     margin: auto;
                     font-size: 1.1rem;
-                    // font-weight: 800;
                 }
             }
             .ciudad {
@@ -285,7 +267,6 @@
                     padding: 1rem;
                     margin: auto;
                     font-size: 1.1rem;
-                    // font-weight: 800;
                 }
             }
         }
