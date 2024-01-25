@@ -18,25 +18,12 @@ body {
   z-index: -1;
 }
 
-.nos-primero {
-  background-color: rgba(174, 148, 112, 0.245) 0;
-}
-
-.ubi-primero {
-  background-color: rgba(174, 148, 112, 0.245) 0;
-}
-
-.servic-primero {
-  background-color: rgba(174, 148, 112, 0.245) 0;
-}
-
-.con-primero {
-  background-color: rgba(174, 148, 112, 0.245) 0;
-  padding-bottom: 2rem;
+.con-segunda {
+  padding-bottom: 1rem;
 }
 
 .row {
-  background-color: rgba(174, 148, 112, 0.245) 0;
+  background-color: #C0B6A7;
   margin: auto;
 }
 .row .card {
@@ -85,6 +72,10 @@ body {
     width: 3rem;
     height: 3rem;
   }
+  .whatsapp {
+    right: 1rem;
+    bottom: 8rem;
+  }
   .titulo h1 {
     padding: 0.5rem;
     font-size: 1rem;
@@ -123,12 +114,12 @@ body {
     width: 18rem;
     height: 13rem;
   }
+  .nos-primero {
+    background-color: #C0B6A7;
+  }
   .nos-primero h2 {
     padding: 1rem 2rem;
     font-size: 1rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .nos-primero p {
     font-size: 1rem;
@@ -145,12 +136,12 @@ body {
     display: flex;
     float: left;
   }
+  .ubi-primero {
+    background-color: #C0B6A7;
+  }
   .ubi-primero h2 {
     padding: 1rem 2rem;
     font-size: 1rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .ubi-primero p {
     font-size: 1rem;
@@ -163,12 +154,12 @@ body {
     display: flex;
     width: 85%;
   }
+  .servic-primero {
+    background-color: rgb(192, 182, 167);
+  }
   .servic-primero h2 {
-    background-color: rgba(125, 143, 95, 0.46);
-    font-size: 1.5rem;
-    margin: 0rem;
+    font-size: 1rem;
     padding: 1rem 2rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .servic-primero p {
     padding: 1rem 2rem;
@@ -182,7 +173,7 @@ body {
   }
   .servic-primero ul li {
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .servic-primero ul li li:hover {
     margin: 1rem;
@@ -196,30 +187,63 @@ body {
     align-items: center;
   }
   .row {
+    background-color: #C0B6A7;
     padding: 1rem;
   }
-  .con-primero h2 {
-    font-size: 0.9rem;
-    margin: auto;
-    padding: 1rem 2rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+  .con-primero {
+    background-color: rgb(151, 140, 125);
   }
-  .con-primero p {
-    padding: 2rem;
+  .con-primero h2 {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .con-segunda {
+    background-color: #C0B6A7;
+  }
+  .con-segunda p {
+    padding: 1rem;
     font-size: 1rem;
     margin: auto;
   }
-  .con-primero p a {
+  .con-segunda p a {
     text-decoration: none;
     color: #000000;
+  }
+  .con-segunda form {
+    margin: 1rem;
+    max-width: 25rem;
+    padding: 1.25rem;
+    background-color: #9b9696;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  }
+  .con-segunda form label {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #000000;
+  }
+  .con-segunda form input, .con-segunda form textarea {
+    width: 95%;
+    padding: 0.6rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 0.6rem;
+    resize: none;
+  }
+  .con-segunda form input[type=submit] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    width: 20.5rem;
+  }
+  .con-segunda form input[type=submit]:hover {
+    background-color: #45a049;
   }
   .footer {
     padding: 1rem;
   }
   .footer .footer-titulo h4 {
     font-size: 1rem;
-    margin-bottom: 1rem;
     font-weight: 700;
   }
   .footer .grid {
@@ -234,26 +258,18 @@ body {
     margin: auto;
   }
   .footer .grid .titulo-redes p {
-    color: #000000;
     font-size: 1rem;
-    padding: 0.5rem 0rem;
-    margin: auto;
-  }
-  .footer .grid .ig-linkedin {
-    display: flex;
-    justify-content: center;
   }
   .footer .grid .ig-linkedin img {
-    display: flex;
     width: 1rem;
     height: 1rem;
-    margin-right: 0.5rem;
   }
   .footer .grid .ig-linkedin a {
     text-decoration: none;
-    color: #000000;
   }
   .footer .grid .facebook {
+    justify-content: center;
+    align-items: center;
     display: flex;
   }
   .footer .grid .facebook img {
@@ -262,34 +278,18 @@ body {
     height: 1rem;
     margin-right: 0.5rem;
   }
-  .footer .grid .facebook a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .footer .grid .titulo-contactoPersonal {
-    margin: auto;
-  }
   .footer .grid .titulo-contactoPersonal p {
-    color: #000000;
     font-size: 1rem;
-    padding: 0.5rem 0rem;
     margin: auto;
   }
   .footer .grid .numero p {
     align-items: center;
-    margin: auto;
   }
   .footer .grid .e-mail p {
-    margin: auto;
     align-items: center;
   }
-  .footer .grid .titulo-direccion {
-    margin: auto;
-  }
   .footer .grid .titulo-direccion p {
-    color: #000000;
     font-size: 1rem;
-    padding: 0.5rem 0rem;
     margin: auto;
   }
   .footer .grid .direccion p {
@@ -357,12 +357,12 @@ body {
     text-align: justify;
     text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
+  .nos-primero {
+    background-color: #C0B6A7;
+  }
   .nos-primero h2 {
     padding: 1rem 3rem;
     font-size: 1rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .nos-primero p {
     font-size: 1rem;
@@ -378,12 +378,12 @@ body {
     display: flex;
     float: left;
   }
+  .ubi-primero {
+    background-color: #C0B6A7;
+  }
   .ubi-primero h2 {
     padding: 1rem 3rem;
     font-size: 1rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .ubi-primero p {
     font-size: 1rem;
@@ -396,12 +396,12 @@ body {
     display: flex;
     width: 85%;
   }
+  .servic-primero {
+    background-color: #C0B6A7;
+  }
   .servic-primero h2 {
-    background-color: rgba(125, 143, 95, 0.46);
     font-size: 1.5rem;
-    margin: 0rem;
     padding: 1rem 3rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .servic-primero p {
     padding: 1rem 3rem;
@@ -415,7 +415,7 @@ body {
   }
   .servic-primero ul li {
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .servic-primero ul li li:hover {
     margin: 1rem;
@@ -431,21 +431,54 @@ body {
   .row {
     padding: 3rem;
   }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
   .con-primero h2 {
     font-size: 1rem;
-    margin: auto;
     padding: 1rem 3rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
-  .con-primero p {
-    padding: 1rem 3rem;
+  .con-segunda {
+    background-color: #C0B6A7;
+  }
+  .con-segunda p {
+    padding: 2rem 3rem;
     font-size: 1rem;
     margin: auto;
   }
-  .con-primero p a {
+  .con-segunda p a {
     text-decoration: none;
     color: #000000;
+  }
+  .con-segunda form {
+    margin: 1rem auto;
+    max-width: 25rem;
+    padding: 1.25rem;
+    background-color: #9b9696;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  }
+  .con-segunda form label {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #000000;
+  }
+  .con-segunda form input, .con-segunda form textarea {
+    width: 95%;
+    padding: 0.6rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 0.6rem;
+    resize: none;
+  }
+  .con-segunda form input[type=submit] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    width: 20.5rem;
+  }
+  .con-segunda form input[type=submit]:hover {
+    background-color: #45a049;
   }
   .footer {
     padding: 1rem 3rem;
@@ -453,7 +486,6 @@ body {
   }
   .footer .footer-titulo h4 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
     font-weight: 700;
   }
   .footer .grid {
@@ -469,27 +501,21 @@ body {
     margin: auto;
   }
   .footer .grid .titulo-redes p {
-    color: #000000;
     font-size: 1.2rem;
     padding: 0.5rem 0rem;
     margin: 1rem;
   }
-  .footer .grid .ig-linkedin {
-    display: flex;
-    justify-content: center;
-  }
   .footer .grid .ig-linkedin img {
-    display: flex;
     width: 1rem;
     height: 1rem;
-    margin-right: 0.5rem;
   }
   .footer .grid .ig-linkedin a {
     text-decoration: none;
   }
   .footer .grid .facebook {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
   }
   .footer .grid .facebook img {
@@ -499,33 +525,20 @@ body {
     margin-right: 0.5rem;
   }
   .footer .grid .facebook a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .footer .grid .titulo-contactoPersonal {
-    margin: auto;
+    font-size: 1rem;
   }
   .footer .grid .titulo-contactoPersonal p {
-    color: #000000;
     font-size: 1.2rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .numero p {
-    margin: auto;
     padding: 1rem;
   }
   .footer .grid .e-mail p {
     padding: 1rem;
-    margin: auto;
-  }
-  .footer .grid .titulo-direccion {
-    margin: auto;
   }
   .footer .grid .titulo-direccion p {
-    color: #000000;
     font-size: 1.2rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .direccion p {
@@ -618,12 +631,12 @@ body {
     text-align: justify;
     text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
+  .nos-primero {
+    background-color: #C0B6A7;
+  }
   .nos-primero h2 {
     padding: 1rem 6rem;
     font-size: 1.5rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .nos-primero p {
     font-size: 1.5rem;
@@ -639,12 +652,12 @@ body {
     display: flex;
     float: left;
   }
+  .ubi-primero {
+    background-color: #C0B6A7;
+  }
   .ubi-primero h2 {
     padding: 1rem 6rem;
     font-size: 1.5rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .ubi-primero p {
     font-size: 1rem;
@@ -657,12 +670,12 @@ body {
     display: flex;
     width: 80%;
   }
+  .servic-primero {
+    background-color: #C0B6A7;
+  }
   .servic-primero h2 {
-    background-color: rgba(125, 143, 95, 0.46);
     font-size: 1.5rem;
-    margin: 0rem;
     padding: 1rem 6rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .servic-primero p {
     padding: 1rem 6rem;
@@ -676,7 +689,7 @@ body {
   }
   .servic-primero ul li {
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .servic-primero ul li li:hover {
     margin: 1rem;
@@ -693,29 +706,61 @@ body {
     padding: 5rem 6rem;
     height: 100%;
   }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
   .con-primero h2 {
-    font-size: 1.5rem;
-    margin: auto;
+    font-size: 1rem;
     padding: 1rem 6rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
-  .con-primero p {
-    padding: 1rem 6rem;
-    font-size: 1.2rem;
+  .con-segunda {
+    background-color: #C0B6A7;
+  }
+  .con-segunda p {
+    padding: 2rem 6rem;
+    font-size: 1rem;
     margin: auto;
   }
-  .con-primero p a {
+  .con-segunda p a {
     text-decoration: none;
     color: #000000;
+  }
+  .con-segunda form {
+    margin: 1rem auto;
+    max-width: 25rem;
+    padding: 1.25rem;
+    background-color: #9b9696;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  }
+  .con-segunda form label {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #000000;
+  }
+  .con-segunda form input, .con-segunda form textarea {
+    width: 95%;
+    padding: 0.6rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 0.6rem;
+    resize: none;
+  }
+  .con-segunda form input[type=submit] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    width: 20.5rem;
+  }
+  .con-segunda form input[type=submit]:hover {
+    background-color: #45a049;
   }
   .footer {
     padding: 1rem 6rem;
     font-weight: 600;
   }
   .footer .footer-titulo h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
   }
   .footer .grid {
@@ -731,20 +776,13 @@ body {
     margin: auto;
   }
   .footer .grid .titulo-redes p {
-    color: #000000;
     font-size: 1.6rem;
     padding: 0.5rem 0rem;
     margin: 1rem;
   }
-  .footer .grid .ig-linkedin {
-    display: flex;
-    justify-content: center;
-  }
   .footer .grid .ig-linkedin img {
-    display: flex;
     width: 2rem;
     height: 2rem;
-    margin-right: 0.5rem;
   }
   .footer .grid .ig-linkedin a {
     text-decoration: none;
@@ -753,6 +791,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+    align-items: center;
   }
   .footer .grid .facebook img {
     display: flex;
@@ -761,36 +800,22 @@ body {
     margin-right: 0.5rem;
   }
   .footer .grid .facebook a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.2rem;
-  }
-  .footer .grid .titulo-contactoPersonal {
-    margin: auto;
+    font-size: 1rem;
   }
   .footer .grid .titulo-contactoPersonal p {
-    color: #000000;
     font-size: 1.5rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .numero p {
-    margin: auto;
     padding: 1rem;
     font-size: 1.1rem;
   }
   .footer .grid .e-mail p {
     padding: 1rem;
-    margin: auto;
     font-size: 1.1rem;
   }
-  .footer .grid .titulo-direccion {
-    margin: auto;
-  }
   .footer .grid .titulo-direccion p {
-    color: #000000;
     font-size: 1.5rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .direccion p {
@@ -885,12 +910,12 @@ body {
     text-align: justify;
     text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
+  .nos-primero {
+    background-color: #C0B6A7;
+  }
   .nos-primero h2 {
     padding: 1rem 10rem;
     font-size: 1.5rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .nos-primero p {
     font-size: 1.5rem;
@@ -906,12 +931,12 @@ body {
     display: flex;
     float: left;
   }
+  .ubi-primero {
+    background-color: #C0B6A7;
+  }
   .ubi-primero h2 {
     padding: 1rem 10rem;
     font-size: 1.5rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .ubi-primero p {
     font-size: 1rem;
@@ -924,12 +949,12 @@ body {
     display: flex;
     width: 80%;
   }
+  .servic-primero {
+    background-color: #C0B6A7;
+  }
   .servic-primero h2 {
-    background-color: rgba(125, 143, 95, 0.46);
     font-size: 1.5rem;
-    margin: 0rem;
     padding: 1rem 10rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .servic-primero p {
     padding: 1rem 10rem;
@@ -960,21 +985,54 @@ body {
     padding: 5rem 10rem;
     height: 100%;
   }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
   .con-primero h2 {
-    font-size: 1.5rem;
-    margin: auto;
-    padding: 1rem 6rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    padding: 1rem 10rem;
   }
-  .con-primero p {
-    padding: 1rem 6rem;
-    font-size: 1.2rem;
+  .con-segunda {
+    background-color: #C0B6A7;
+  }
+  .con-segunda p {
+    padding: 2rem 10rem;
+    font-size: 1rem;
     margin: auto;
   }
-  .con-primero p a {
+  .con-segunda p a {
     text-decoration: none;
     color: #000000;
+  }
+  .con-segunda form {
+    margin: 1rem auto;
+    max-width: 25rem;
+    padding: 1.25rem;
+    background-color: #9b9696;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  }
+  .con-segunda form label {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #000000;
+  }
+  .con-segunda form input, .con-segunda form textarea {
+    width: 95%;
+    padding: 0.6rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 0.6rem;
+    resize: none;
+  }
+  .con-segunda form input[type=submit] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    width: 20.5rem;
+  }
+  .con-segunda form input[type=submit]:hover {
+    background-color: #45a049;
   }
   .footer {
     padding: 1rem 10rem;
@@ -997,23 +1055,17 @@ body {
     margin: auto;
   }
   .footer .grid .titulo-redes p {
-    color: #000000;
     font-size: 1.6rem;
     padding: 0.5rem 0rem;
     margin: 1rem;
   }
-  .footer .grid .ig-linkedin {
-    display: flex;
-    justify-content: center;
-  }
   .footer .grid .ig-linkedin img {
-    display: flex;
     width: 2rem;
     height: 2rem;
-    margin-right: 0.5rem;
   }
   .footer .grid .ig-linkedin a {
     text-decoration: none;
+    color: #000000;
   }
   .footer .grid .facebook {
     display: flex;
@@ -1028,36 +1080,22 @@ body {
     margin-right: 0.5rem;
   }
   .footer .grid .facebook a {
-    text-decoration: none;
-    color: #000000;
     font-size: 1.2rem;
   }
-  .footer .grid .titulo-contactoPersonal {
-    margin: auto;
-  }
   .footer .grid .titulo-contactoPersonal p {
-    color: #000000;
     font-size: 1.5rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .numero p {
-    margin: auto;
     padding: 1rem;
     font-size: 1.1rem;
   }
   .footer .grid .e-mail p {
     padding: 1rem;
-    margin: auto;
     font-size: 1.1rem;
   }
-  .footer .grid .titulo-direccion {
-    margin: auto;
-  }
   .footer .grid .titulo-direccion p {
-    color: #000000;
     font-size: 1.5rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .direccion p {
@@ -1151,12 +1189,12 @@ body {
     text-align: justify;
     text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
+  .nos-primero {
+    background-color: #C0B6A7;
+  }
   .nos-primero h2 {
     padding: 1rem 14rem;
     font-size: 1.5rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .nos-primero p {
     font-size: 1.5rem;
@@ -1172,12 +1210,12 @@ body {
     display: flex;
     float: left;
   }
+  .ubi-primero {
+    background-color: #C0B6A7;
+  }
   .ubi-primero h2 {
     padding: 1rem 14rem;
     font-size: 1.5rem;
-    margin: 0rem;
-    background-color: rgba(125, 143, 95, 0.46);
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .ubi-primero p {
     font-size: 1rem;
@@ -1190,12 +1228,12 @@ body {
     display: flex;
     width: 75%;
   }
+  .servic-primero {
+    background-color: #C0B6A7;
+  }
   .servic-primero h2 {
-    background-color: rgba(125, 143, 95, 0.46);
     font-size: 1.5rem;
-    margin: 0rem;
     padding: 1rem 14rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .servic-primero p {
     padding: 1.5rem 14rem;
@@ -1230,6 +1268,56 @@ body {
     padding: 5rem 18rem;
     height: 100%;
   }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
+  .con-primero h2 {
+    font-size: 1rem;
+    padding: 1rem 10rem;
+  }
+  .con-segunda {
+    background-color: #C0B6A7;
+  }
+  .con-segunda p {
+    padding: 2rem 10rem;
+    font-size: 1rem;
+    margin: auto;
+  }
+  .con-segunda p a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .con-segunda form {
+    background-color: #C0B6A7;
+    margin: 1rem auto;
+    max-width: 25rem;
+    padding: 1.25rem;
+    background-color: #9b9696;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  }
+  .con-segunda form label {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #000000;
+  }
+  .con-segunda form input, .con-segunda form textarea {
+    width: 95%;
+    padding: 0.6rem;
+    border: 0.2rem solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 0.6rem;
+    resize: none;
+  }
+  .con-segunda form input[type=submit] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    width: 20.5rem;
+  }
+  .con-segunda form input[type=submit]:hover {
+    background-color: #45a049;
+  }
   .footer {
     padding: 1rem 14rem;
     font-weight: 600;
@@ -1251,23 +1339,17 @@ body {
     margin: auto;
   }
   .footer .grid .titulo-redes p {
-    color: #000000;
     font-size: 1.6rem;
     padding: 0.5rem 0rem;
     margin: 1rem;
   }
-  .footer .grid .ig-linkedin {
-    display: flex;
-    justify-content: center;
-  }
   .footer .grid .ig-linkedin img {
-    display: flex;
     width: 2rem;
     height: 2rem;
-    margin-right: 0.5rem;
   }
   .footer .grid .ig-linkedin a {
     text-decoration: none;
+    color: #000000;
   }
   .footer .grid .facebook {
     display: flex;
@@ -1282,36 +1364,22 @@ body {
     margin-right: 0.5rem;
   }
   .footer .grid .facebook a {
-    text-decoration: none;
-    color: #000000;
     font-size: 1.2rem;
   }
-  .footer .grid .titulo-contactoPersonal {
-    margin: auto;
-  }
   .footer .grid .titulo-contactoPersonal p {
-    color: #000000;
     font-size: 1.5rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .numero p {
-    margin: auto;
     padding: 1rem;
     font-size: 1.1rem;
   }
   .footer .grid .e-mail p {
     padding: 1rem;
-    margin: auto;
     font-size: 1.1rem;
   }
-  .footer .grid .titulo-direccion {
-    margin: auto;
-  }
   .footer .grid .titulo-direccion p {
-    color: #000000;
     font-size: 1.5rem;
-    padding: 0.5rem 0rem;
     margin: 1rem;
   }
   .footer .grid .direccion p {
@@ -1325,35 +1393,74 @@ body {
     font-size: 1.1rem;
   }
 }
-form {
-  max-width: 25rem;
+.footer .footer-titulo h4 {
+  margin-bottom: 1rem;
+}
+.footer .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.footer .grid .titulo-redes {
   margin: auto;
-  padding: 1.25rem;
-  background-color: #9b9696;
-  border-radius: 0.625rem;
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
-form label {
-  display: block;
-  margin-bottom: 0.2rem;
+.footer .grid .titulo-redes p {
   color: #000000;
+  padding: 0.5rem 0rem;
 }
-form input, form textarea {
-  width: 95%;
-  padding: 0.6rem;
-  border: 0.2rem solid #ccc;
-  border-radius: 0.25rem;
-  margin-bottom: 0.6rem;
-  resize: none;
+.footer .grid .ig-linkedin {
+  display: flex;
+  justify-content: center;
 }
-form input[type=submit] {
-  background-color: #4CAF50;
-  color: #fff;
-  cursor: pointer;
-  width: 20.5rem;
+.footer .grid .ig-linkedin img {
+  display: flex;
+  margin-right: 0.5rem;
 }
-form input[type=submit]:hover {
-  background-color: #45a049;
+.footer .grid .ig-linkedin a {
+  text-decoration: none;
+}
+.footer .grid .facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.footer .grid .facebook img {
+  display: flex;
+  margin-right: 0.5rem;
+}
+.footer .grid .facebook a {
+  color: #000000;
+  text-decoration: none;
+}
+.footer .grid .titulo-contactoPersonal {
+  margin: auto;
+}
+.footer .grid .titulo-contactoPersonal p {
+  color: #000000;
+  padding: 0.5rem 0rem;
+}
+.footer .grid .numero p {
+  margin: auto;
+}
+.footer .grid .e-mail p {
+  margin: auto;
+}
+.footer .grid .titulo-direccion {
+  margin: auto;
+}
+.footer .grid .titulo-direccion p {
+  color: #000000;
+  padding: 0.5rem 0rem;
+}
+.footer .grid .direccion p {
+  margin: auto;
+}
+.footer .grid .ciudad p {
+  margin: auto;
 }
 
 .whatsapp {
@@ -1366,6 +1473,15 @@ form input[type=submit]:hover {
   margin: 0rem;
   text-align: center;
   font-weight: 700;
+}
+
+.nos-primero h2, .ubi-primero h2, .servic-primero h2, .con-primero h2 {
+  background-color: rgba(125, 143, 95, 0.46);
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+.con-segunda {
+  background-color: rgba(174, 148, 112, 0.245) 0;
 }
 
 /*# sourceMappingURL=style.css.map */

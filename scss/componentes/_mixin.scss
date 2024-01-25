@@ -1,0 +1,38 @@
+@mixin titulo-h1 ($fonde-color, $borde, $margen, $texto-alineado, $grosor){
+    background-color: $fonde-color;
+    border: $borde;
+    margin: $margen;
+    text-align: $texto-alineado;
+    font-weight: $grosor;
+}
+@mixin fondo ($colofondo){
+    background-color: $colofondo;
+}
+
+@mixin titulo-h2 ($color-de-fondo, $sombra) {
+    background-color: $color-de-fondo;
+    text-shadow: $sombra;
+}
+@mixin whaap ($posicion){
+    position: $posicion
+}
+
+.whatsapp{
+    @include whaap(fixed);
+}
+
+.titulo {
+    h1{
+        @include titulo-h1(#b1b1b1, 0.1rem solid #000000, 0rem, center, 700)
+    }
+}
+
+.nos-primero, .ubi-primero, .servic-primero, .con-primero{
+    h2{
+        @include titulo-h2 (rgba(125, 143, 95, 0.46), 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5))
+    }
+}
+
+.con-segunda{
+    @include fondo(rgba(174, 148, 112, 0.245) 0);
+}
