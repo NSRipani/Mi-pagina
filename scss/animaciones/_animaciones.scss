@@ -1,0 +1,30 @@
+@keyframes resaltar{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.servic-primero{
+    ul{
+        li{
+            transition: 1s ;
+            &:hover{
+                animation-name: resaltar;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-out;
+                animation-duration: 2s;
+                animation-delay: 1s;
+                margin: 1rem;
+                text-shadow: 0.2rem 0.2rem 0.3rem black;
+            }
+            &:active{
+                color: blue;
+            }
+        }
+    }
+}

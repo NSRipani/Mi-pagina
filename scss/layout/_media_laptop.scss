@@ -1,4 +1,7 @@
+// $fondo: linear-gradient(to left, (90deg, rgba(192,185,167,1) 0%, rgba(177,160,113,1) 100%, rgba(161,162,154,1) 100%));
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
     .header{
         justify-content: space-between;
         padding: 1rem 6rem;
@@ -140,10 +143,6 @@
             li{
                 padding-left: 1rem;
                 font-size: 1.2rem;
-                li:hover{
-                    margin: 1rem;
-                    text-shadow: 0.2rem 0.2rem 0.3rem black;
-                }
             }
         }
     }
@@ -165,6 +164,7 @@
             padding: 1rem 6rem;
         }
     }
+
     .con-segunda{
         background-color: #C0B6A7;
         p{
@@ -203,7 +203,7 @@
                 background-color: #4CAF50;
                 color: #fff;
                 cursor: pointer;
-                width: 20.5rem;
+                width: 100%;
         
                 &:hover {
                     background-color: #45a049;

@@ -13,6 +13,9 @@ body {
   right: 1rem;
   bottom: 8rem;
 }
+.whatsapp:hover {
+  transform: scale(2);
+}
 
 .carousel-inner {
   z-index: -1;
@@ -23,6 +26,7 @@ body {
 }
 
 .row {
+  width: 100%;
   background-color: #C0B6A7;
   margin: auto;
 }
@@ -175,10 +179,6 @@ body {
     padding-left: 1rem;
     font-size: 1rem;
   }
-  .servic-primero ul li li:hover {
-    margin: 1rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem black;
-  }
   .servic-segundo {
     background: rgba(174, 148, 112, 0.245) 0;
     padding: 2rem 2rem;
@@ -234,7 +234,7 @@ body {
     background-color: #4CAF50;
     color: #fff;
     cursor: pointer;
-    width: 20.5rem;
+    width: 100%;
   }
   .con-segunda form input[type=submit]:hover {
     background-color: #45a049;
@@ -417,10 +417,6 @@ body {
     padding-left: 1rem;
     font-size: 1rem;
   }
-  .servic-primero ul li li:hover {
-    margin: 1rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem black;
-  }
   .servic-segundo {
     background: rgba(174, 148, 112, 0.245) 0;
     padding: 2rem 3rem;
@@ -475,7 +471,7 @@ body {
     background-color: #4CAF50;
     color: #fff;
     cursor: pointer;
-    width: 20.5rem;
+    width: 100%;
   }
   .con-segunda form input[type=submit]:hover {
     background-color: #45a049;
@@ -691,10 +687,6 @@ body {
     padding-left: 1rem;
     font-size: 1.2rem;
   }
-  .servic-primero ul li li:hover {
-    margin: 1rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem black;
-  }
   .servic-segundo {
     background: rgba(174, 148, 112, 0.245) 0;
     padding: 2rem 6rem;
@@ -750,7 +742,7 @@ body {
     background-color: #4CAF50;
     color: #fff;
     cursor: pointer;
-    width: 20.5rem;
+    width: 100%;
   }
   .con-segunda form input[type=submit]:hover {
     background-color: #45a049;
@@ -970,10 +962,6 @@ body {
     padding-left: 1rem;
     font-size: 1.5rem;
   }
-  .servic-primero ul li li:hover {
-    margin: 1rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem black;
-  }
   .servic-segundo {
     background: rgba(174, 148, 112, 0.245) 0;
     padding: 2rem 10rem;
@@ -1029,7 +1017,7 @@ body {
     background-color: #4CAF50;
     color: #fff;
     cursor: pointer;
-    width: 20.5rem;
+    width: 100%;
   }
   .con-segunda form input[type=submit]:hover {
     background-color: #45a049;
@@ -1190,7 +1178,7 @@ body {
     text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
   }
   .nos-primero {
-    background-color: #C0B6A7;
+    background-color: #c0bab2;
   }
   .nos-primero h2 {
     padding: 1rem 14rem;
@@ -1252,7 +1240,6 @@ body {
   .servic-primero ul li:hover {
     margin: 1rem;
     text-shadow: 0.2rem 0.2rem 0.3rem black;
-    transition: 1s;
   }
   .servic-primero ul li:active {
     color: blue;
@@ -1313,7 +1300,7 @@ body {
     background-color: #4CAF50;
     color: #fff;
     cursor: pointer;
-    width: 20.5rem;
+    width: 100%;
   }
   .con-segunda form input[type=submit]:hover {
     background-color: #45a049;
@@ -1463,12 +1450,41 @@ body {
   margin: auto;
 }
 
+@keyframes resaltar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.servic-primero ul li {
+  transition: 1s;
+}
+.servic-primero ul li:hover {
+  animation-name: resaltar;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  margin: 1rem;
+  text-shadow: 0.2rem 0.2rem 0.3rem black;
+}
+.servic-primero ul li:active {
+  color: blue;
+}
+
 .whatsapp {
   position: fixed;
 }
 
+.titulo {
+  background-image: linear-gradient(to right, rgba(74, 73, 73, 0.7058823529), #bcb8b8);
+}
 .titulo h1 {
-  background-color: #b1b1b1;
   border: 0.1rem solid #000000;
   margin: 0rem;
   text-align: center;
@@ -1481,7 +1497,11 @@ body {
 }
 
 .con-segunda {
-  background-color: rgba(174, 148, 112, 0.245) 0;
+  background-image: rgba(174, 148, 112, 0.245) 0;
+}
+
+.footer {
+  background-image: linear-gradient(to top, rgba(176, 175, 173, 0.7007177871) 0%, rgb(114, 116, 103) 0%, rgb(161, 162, 154) 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
