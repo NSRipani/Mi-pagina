@@ -8,12 +8,51 @@ body {
   background-color: rgb(255, 255, 255) !important;
 }
 
+.header {
+  padding: 1rem;
+  display: flex;
+  background-color: #605f5f;
+  border-bottom: 0.1rem solid #000000;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.header nav {
+  display: flex;
+}
+.header nav ul {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+}
+.header nav ul li {
+  list-style-type: none;
+}
+.header nav ul li a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #cfcfcf;
+}
+.header nav ul li a:hover {
+  background-color: #a3a3a3;
+  color: #000000;
+  border: 0.1rem solid #000000;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  transition: 0.5s;
+}
+
 .whatsapp {
   position: fixed !important;
-  right: 1rem;
-  bottom: 8rem;
 }
-.whatsapp:hover {
+.whatsapp img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.whatsapp a:hover {
   transform: scale(2);
 }
 
@@ -23,6 +62,73 @@ body {
 
 .con-segunda {
   padding-bottom: 1rem;
+}
+
+.cuerpo {
+  display: flex;
+  background-color: rgba(125, 143, 95, 0.46);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.cuerpo img {
+  justify-content: center;
+  text-align: justify;
+}
+.cuerpo p {
+  margin: auto;
+  text-align: justify;
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+.nos-primero {
+  background-color: #C0B6A7;
+}
+.nos-primero p {
+  text-align: justify;
+  margin: auto;
+}
+.nos-primero p img {
+  display: flex;
+  float: left;
+}
+
+.ubi-primero {
+  background-color: #C0B6A7;
+}
+.ubi-primero p {
+  font-size: 1rem;
+  margin: 0rem;
+}
+.ubi-primero iframe {
+  margin: 0rem;
+  display: flex;
+}
+
+.servic-primero {
+  background-color: #C0B6A7;
+}
+.servic-primero ul {
+  list-style-image: url("../asset/img/check.png");
+  margin: auto 2rem;
+}
+.servic-primero ul li {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+.servic-primero ul li a:hover {
+  margin: 1rem;
+  text-shadow: 0.2rem 0.2rem 0.3rem black;
+}
+.servic-primero ul li a:active {
+  color: blue;
+}
+
+.servic-segundo {
+  background: rgba(174, 148, 112, 0.245) 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .row {
@@ -48,1342 +154,55 @@ body {
   animation-direction: alternate;
 }
 
+.con-segunda {
+  background-color: #C0B6A7;
+}
+.con-segunda p {
+  font-size: 1rem;
+  margin: auto;
+}
+.con-segunda p a {
+  text-decoration: none;
+  color: #000000;
+}
+.con-segunda form {
+  max-width: 25rem;
+  padding: 1.25rem;
+  background-color: #9b9696;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+.con-segunda form label {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: #000000;
+}
+.con-segunda form input, .con-segunda form textarea {
+  width: 95%;
+  padding: 0.6rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 0.6rem;
+  resize: none;
+}
+.con-segunda form input[type=submit] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+.con-segunda form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
 .footer {
   background-color: #605f5f;
-}
-
-.header {
-  padding: 1rem;
-  display: flex;
-  background-color: #605f5f;
-  border-bottom: 0.1rem solid #000000;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 425px) {
-  .header nav ul li {
-    list-style-type: none;
-    display: none;
-  }
-  .header img {
-    width: 6rem;
-    height: 3rem;
-  }
-  .header .menu {
-    width: 3rem;
-    height: 3rem;
-  }
-  .whatsapp {
-    right: 1rem;
-    bottom: 8rem;
-  }
-  .titulo h1 {
-    padding: 0.5rem;
-    font-size: 1rem;
-  }
-  .cuerpo {
-    display: flex;
-    background-color: rgba(125, 143, 95, 0.46);
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-  .cuerpo img {
-    justify-content: center;
-    text-align: justify;
-    width: 7rem;
-    padding-left: 1rem;
-  }
-  .cuerpo p {
-    padding: 1.5rem;
-    margin: auto;
-    line-height: 1rem;
-    font-size: 1rem;
-    text-align: justify;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-  }
-  .whatsapp img {
-    width: 2rem;
-    height: 2rem;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-  }
-  .img img {
-    width: 18rem;
-    height: 13rem;
-  }
-  .nos-primero {
-    background-color: #C0B6A7;
-  }
-  .nos-primero h2 {
-    padding: 1rem 2rem;
-    font-size: 1rem;
-  }
-  .nos-primero p {
-    font-size: 1rem;
-    padding: 2rem;
-    line-height: 1rem;
-    display: flow;
-    text-align: justify;
-    margin: auto;
-  }
-  .nos-primero p img {
-    width: 7rem;
-    height: 7rem;
-    padding: 0.5rem;
-    display: flex;
-    float: left;
-  }
-  .ubi-primero {
-    background-color: #C0B6A7;
-  }
-  .ubi-primero h2 {
-    padding: 1rem 2rem;
-    font-size: 1rem;
-  }
-  .ubi-primero p {
-    font-size: 1rem;
-    margin: 0rem;
-    padding: 2rem;
-  }
-  .ubi-primero iframe {
-    margin: 0rem;
-    padding: 2rem 2rem;
-    display: flex;
-    width: 85%;
-  }
-  .servic-primero {
-    background-color: rgb(192, 182, 167);
-  }
-  .servic-primero h2 {
-    font-size: 1rem;
-    padding: 1rem 2rem;
-  }
-  .servic-primero p {
-    padding: 1rem 2rem;
-    font-size: 1rem;
-  }
-  .servic-primero ul {
-    list-style-image: url("../asset/img/check.png");
-    line-height: 2rem;
-    padding: 1rem 2rem;
-    margin: auto 2rem;
-  }
-  .servic-primero ul li {
-    padding-left: 1rem;
-    font-size: 1rem;
-  }
-  .servic-segundo {
-    background: rgba(174, 148, 112, 0.245) 0;
-    padding: 2rem 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .row {
-    background-color: #C0B6A7;
-    padding: 1rem;
-  }
-  .con-primero {
-    background-color: rgb(151, 140, 125);
-  }
-  .con-primero h2 {
-    font-size: 1rem;
-    padding: 1rem;
-  }
-  .con-segunda {
-    background-color: #C0B6A7;
-  }
-  .con-segunda p {
-    padding: 1rem;
-    font-size: 1rem;
-    margin: auto;
-  }
-  .con-segunda p a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .con-segunda form {
-    margin: 1rem;
-    max-width: 25rem;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-segunda form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-segunda form input, .con-segunda form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-segunda form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-  }
-  .con-segunda form input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  .footer {
-    padding: 1rem;
-  }
-  .footer .footer-titulo h4 {
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  .footer .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer .grid .titulo-redes {
-    margin: auto;
-  }
-  .footer .grid .titulo-redes p {
-    font-size: 1rem;
-  }
-  .footer .grid .ig-linkedin img {
-    width: 1rem;
-    height: 1rem;
-  }
-  .footer .grid .ig-linkedin a {
-    text-decoration: none;
-  }
-  .footer .grid .facebook {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-  .footer .grid .facebook img {
-    display: flex;
-    width: 1rem;
-    height: 1rem;
-    margin-right: 0.5rem;
-  }
-  .footer .grid .titulo-contactoPersonal p {
-    font-size: 1rem;
-    margin: auto;
-  }
-  .footer .grid .numero p {
-    align-items: center;
-  }
-  .footer .grid .e-mail p {
-    align-items: center;
-  }
-  .footer .grid .titulo-direccion p {
-    font-size: 1rem;
-    margin: auto;
-  }
-  .footer .grid .direccion p {
-    margin: auto;
-  }
-  .footer .grid .ciudad p {
-    margin: auto;
-  }
-}
-@media only screen and (min-width: 426px) and (max-width: 768px) {
-  .header {
-    padding: 1rem 3rem;
-  }
-  .header nav ul li {
-    list-style-type: none;
-    display: none;
-  }
-  .header img {
-    width: 6rem;
-    height: 3rem;
-  }
-  .header .menu {
-    width: 3rem;
-    height: 3rem;
-  }
-  .whatsapp {
-    bottom: 12rem;
-    right: 3rem;
-  }
-  .whatsapp img {
-    width: 2rem;
-    height: 2rem;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-  }
-  .img img {
-    width: 18rem;
-    height: 13rem;
-  }
-  .titulo h1 {
-    padding: 0.5rem 3rem;
-    font-size: 1.2rem;
-  }
-  .cuerpo {
-    display: flex;
-    background-color: rgba(125, 143, 95, 0.46);
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-  .cuerpo img {
-    justify-content: center;
-    text-align: justify;
-    width: 18rem;
-    padding: 3rem 2rem 3rem 5rem;
-  }
-  .cuerpo p {
-    padding: 3rem 5rem 3rem 0rem;
-    margin: auto;
-    line-height: 1.7rem;
-    font-size: 1.5rem;
-    text-align: justify;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-  }
-  .nos-primero {
-    background-color: #C0B6A7;
-  }
-  .nos-primero h2 {
-    padding: 1rem 3rem;
-    font-size: 1rem;
-  }
-  .nos-primero p {
-    font-size: 1rem;
-    padding: 3rem;
-    line-height: 1.5rem;
-    text-align: justify;
-    margin: auto;
-  }
-  .nos-primero p img {
-    width: 9rem;
-    height: 9rem;
-    padding: 0.5rem;
-    display: flex;
-    float: left;
-  }
-  .ubi-primero {
-    background-color: #C0B6A7;
-  }
-  .ubi-primero h2 {
-    padding: 1rem 3rem;
-    font-size: 1rem;
-  }
-  .ubi-primero p {
-    font-size: 1rem;
-    margin: 0rem;
-    padding: 3rem;
-  }
-  .ubi-primero iframe {
-    margin: 0rem;
-    padding: 2rem 3rem;
-    display: flex;
-    width: 85%;
-  }
-  .servic-primero {
-    background-color: #C0B6A7;
-  }
-  .servic-primero h2 {
-    font-size: 1.5rem;
-    padding: 1rem 3rem;
-  }
-  .servic-primero p {
-    padding: 1rem 3rem;
-    font-size: 1rem;
-  }
-  .servic-primero ul {
-    list-style-image: url("../asset/img/check.png");
-    line-height: 2rem;
-    padding: 1rem 4rem;
-    margin: auto 2rem;
-  }
-  .servic-primero ul li {
-    padding-left: 1rem;
-    font-size: 1rem;
-  }
-  .servic-segundo {
-    background: rgba(174, 148, 112, 0.245) 0;
-    padding: 2rem 3rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .row {
-    padding: 3rem;
-  }
-  .con-primero {
-    background-color: rgb(151, 140, 125);
-  }
-  .con-primero h2 {
-    font-size: 1rem;
-    padding: 1rem 3rem;
-  }
-  .con-segunda {
-    background-color: #C0B6A7;
-  }
-  .con-segunda p {
-    padding: 2rem 3rem;
-    font-size: 1rem;
-    margin: auto;
-  }
-  .con-segunda p a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .con-segunda form {
-    margin: 1rem auto;
-    max-width: 25rem;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-segunda form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-segunda form input, .con-segunda form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-segunda form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-  }
-  .con-segunda form input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  .footer {
-    padding: 1rem 3rem;
-    font-weight: 600;
-  }
-  .footer .footer-titulo h4 {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  .footer .grid {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer .grid .titulo-redes {
-    margin: auto;
-  }
-  .footer .grid .titulo-redes p {
-    font-size: 1.2rem;
-    padding: 0.5rem 0rem;
-    margin: 1rem;
-  }
-  .footer .grid .ig-linkedin img {
-    width: 1rem;
-    height: 1rem;
-  }
-  .footer .grid .ig-linkedin a {
-    text-decoration: none;
-  }
-  .footer .grid .facebook {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-  }
-  .footer .grid .facebook img {
-    display: flex;
-    width: 1rem;
-    height: 1rem;
-    margin-right: 0.5rem;
-  }
-  .footer .grid .facebook a {
-    font-size: 1rem;
-  }
-  .footer .grid .titulo-contactoPersonal p {
-    font-size: 1.2rem;
-    margin: 1rem;
-  }
-  .footer .grid .numero p {
-    padding: 1rem;
-  }
-  .footer .grid .e-mail p {
-    padding: 1rem;
-  }
-  .footer .grid .titulo-direccion p {
-    font-size: 1.2rem;
-    margin: 1rem;
-  }
-  .footer .grid .direccion p {
-    padding: 1rem;
-    margin: auto;
-  }
-  .footer .grid .ciudad p {
-    padding: 1rem;
-    margin: auto;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .header {
-    justify-content: space-between;
-    padding: 1rem 6rem;
-  }
-  .header nav {
-    display: flex;
-  }
-  .header nav ul {
-    justify-content: space-between;
-    align-items: center;
-    margin: 0rem;
-    padding: 0rem;
-    display: flex;
-  }
-  .header nav ul li {
-    list-style-type: none;
-  }
-  .header nav ul li a {
-    padding: 0.5rem;
-    text-decoration: none;
-    color: #cfcfcf;
-  }
-  .header nav ul li a:hover {
-    background-color: #a3a3a3;
-    color: #000000;
-    border: 0.1rem solid #000000;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    transition: 0.5s;
-  }
-  .header img {
-    width: 10rem;
-    height: 5rem;
-  }
-  .header .menu {
-    width: 4rem;
-    height: 5rem;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-  }
-  .img img {
-    width: 25rem;
-    height: 20rem;
-  }
-  .whatsapp {
-    bottom: 14rem;
-    right: 6rem;
-  }
-  .whatsapp img {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .titulo h1 {
-    padding: 0.5rem 6rem;
-    font-size: 1.7rem;
-  }
-  .cuerpo {
-    display: flex;
-    background-color: rgba(125, 143, 95, 0.46);
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-  .cuerpo img {
-    justify-content: center;
-    text-align: justify;
-    width: 18rem;
-    padding: 3rem 2rem 3rem 6rem;
-  }
-  .cuerpo p {
-    padding: 3rem 6rem 3rem 0rem;
-    margin: auto;
-    line-height: 2rem;
-    font-size: 1.8rem;
-    text-align: justify;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-  }
-  .nos-primero {
-    background-color: #C0B6A7;
-  }
-  .nos-primero h2 {
-    padding: 1rem 6rem;
-    font-size: 1.5rem;
-  }
-  .nos-primero p {
-    font-size: 1.5rem;
-    padding: 3rem 6rem;
-    line-height: 1.5rem;
-    text-align: justify;
-    margin: auto;
-  }
-  .nos-primero p img {
-    width: 10rem;
-    height: 10rem;
-    padding: 0.8rem;
-    display: flex;
-    float: left;
-  }
-  .ubi-primero {
-    background-color: #C0B6A7;
-  }
-  .ubi-primero h2 {
-    padding: 1rem 6rem;
-    font-size: 1.5rem;
-  }
-  .ubi-primero p {
-    font-size: 1rem;
-    margin: 0rem;
-    padding: 3rem 6rem;
-  }
-  .ubi-primero iframe {
-    margin: 0rem;
-    padding: 2rem 6rem;
-    display: flex;
-    width: 80%;
-  }
-  .servic-primero {
-    background-color: #C0B6A7;
-  }
-  .servic-primero h2 {
-    font-size: 1.5rem;
-    padding: 1rem 6rem;
-  }
-  .servic-primero p {
-    padding: 1rem 6rem;
-    font-size: 1.2rem;
-  }
-  .servic-primero ul {
-    list-style-image: url("../asset/img/check.png");
-    line-height: 2rem;
-    padding: 1rem 8rem;
-    margin: auto 2rem;
-  }
-  .servic-primero ul li {
-    padding-left: 1rem;
-    font-size: 1.2rem;
-  }
-  .servic-segundo {
-    background: rgba(174, 148, 112, 0.245) 0;
-    padding: 2rem 6rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .row {
-    padding: 5rem 6rem;
-    height: 100%;
-  }
-  .con-primero {
-    background-color: rgb(151, 140, 125);
-  }
-  .con-primero h2 {
-    font-size: 1rem;
-    padding: 1rem 6rem;
-  }
-  .con-segunda {
-    background-color: #C0B6A7;
-  }
-  .con-segunda p {
-    padding: 2rem 6rem;
-    font-size: 1rem;
-    margin: auto;
-  }
-  .con-segunda p a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .con-segunda form {
-    margin: 1rem auto;
-    max-width: 25rem;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-segunda form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-segunda form input, .con-segunda form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-segunda form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-  }
-  .con-segunda form input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  .footer {
-    padding: 1rem 6rem;
-    font-weight: 600;
-  }
-  .footer .footer-titulo h4 {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  .footer .grid {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer .grid .titulo-redes {
-    margin: auto;
-  }
-  .footer .grid .titulo-redes p {
-    font-size: 1.6rem;
-    padding: 0.5rem 0rem;
-    margin: 1rem;
-  }
-  .footer .grid .ig-linkedin img {
-    width: 2rem;
-    height: 2rem;
-  }
-  .footer .grid .ig-linkedin a {
-    text-decoration: none;
-  }
-  .footer .grid .facebook {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    align-items: center;
-  }
-  .footer .grid .facebook img {
-    display: flex;
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
-  }
-  .footer .grid .facebook a {
-    font-size: 1rem;
-  }
-  .footer .grid .titulo-contactoPersonal p {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .footer .grid .numero p {
-    padding: 1rem;
-    font-size: 1.1rem;
-  }
-  .footer .grid .e-mail p {
-    padding: 1rem;
-    font-size: 1.1rem;
-  }
-  .footer .grid .titulo-direccion p {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .footer .grid .direccion p {
-    padding: 1rem;
-    margin: auto;
-    font-size: 1.1rem;
-  }
-  .footer .grid .ciudad p {
-    padding: 1rem;
-    margin: auto;
-    font-size: 1.1rem;
-  }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  .header {
-    justify-content: space-between;
-    padding: 1rem 10rem;
-  }
-  .header nav {
-    display: flex;
-  }
-  .header nav ul {
-    justify-content: space-between;
-    align-items: center;
-    margin: 0rem;
-    padding: 0rem;
-    display: flex;
-  }
-  .header nav ul li {
-    list-style-type: none;
-  }
-  .header nav ul li a {
-    padding: 0.5rem;
-    text-decoration: none;
-    color: #cfcfcf;
-  }
-  .header nav ul li a:hover {
-    background-color: #a3a3a3;
-    color: #000000;
-    border: 0.1rem solid #000000;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    transition: 0.5s;
-  }
-  img {
-    width: 9rem;
-    height: 4rem;
-  }
-  .menu {
-    width: 3rem;
-    height: 4rem;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-  }
-  .img img {
-    width: 25rem;
-    height: 20rem;
-  }
-  .whatsapp {
-    bottom: 14rem;
-    right: 6rem;
-  }
-  .whatsapp img {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .titulo h1 {
-    padding: 1.5rem 10rem;
-    font-size: 1.7rem;
-  }
-  .cuerpo {
-    display: flex;
-    background-color: rgba(125, 143, 95, 0.46);
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-  .cuerpo img {
-    justify-content: center;
-    text-align: justify;
-    width: 18rem;
-    padding: 3rem 1rem 3rem 10rem;
-  }
-  .cuerpo p {
-    padding: 3rem 10rem 3rem 0rem;
-    margin: auto;
-    line-height: 2.5rem;
-    font-size: 1.8rem;
-    text-align: justify;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-  }
-  .nos-primero {
-    background-color: #C0B6A7;
-  }
-  .nos-primero h2 {
-    padding: 1rem 10rem;
-    font-size: 1.5rem;
-  }
-  .nos-primero p {
-    font-size: 1.5rem;
-    padding: 3rem 10rem;
-    line-height: 3rem;
-    text-align: justify;
-    margin: auto;
-  }
-  .nos-primero p img {
-    width: 16rem;
-    height: 14rem;
-    padding: 0.5rem 1rem;
-    display: flex;
-    float: left;
-  }
-  .ubi-primero {
-    background-color: #C0B6A7;
-  }
-  .ubi-primero h2 {
-    padding: 1rem 10rem;
-    font-size: 1.5rem;
-  }
-  .ubi-primero p {
-    font-size: 1rem;
-    margin: 0rem;
-    padding: 3rem 10rem;
-  }
-  .ubi-primero iframe {
-    margin: 0rem;
-    padding: 2rem 10rem;
-    display: flex;
-    width: 80%;
-  }
-  .servic-primero {
-    background-color: #C0B6A7;
-  }
-  .servic-primero h2 {
-    font-size: 1.5rem;
-    padding: 1rem 10rem;
-  }
-  .servic-primero p {
-    padding: 1rem 10rem;
-    font-size: 1.2rem;
-  }
-  .servic-primero ul {
-    list-style-image: url("../asset/img/check.png");
-    line-height: 3rem;
-    padding: 1rem 12rem;
-    margin: auto 2rem;
-  }
-  .servic-primero ul li {
-    padding-left: 1rem;
-    font-size: 1.5rem;
-  }
-  .servic-segundo {
-    background: rgba(174, 148, 112, 0.245) 0;
-    padding: 2rem 10rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .row {
-    padding: 5rem 10rem;
-    height: 100%;
-  }
-  .con-primero {
-    background-color: rgb(151, 140, 125);
-  }
-  .con-primero h2 {
-    font-size: 1rem;
-    padding: 1rem 10rem;
-  }
-  .con-segunda {
-    background-color: #C0B6A7;
-  }
-  .con-segunda p {
-    padding: 2rem 10rem;
-    font-size: 1rem;
-    margin: auto;
-  }
-  .con-segunda p a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .con-segunda form {
-    margin: 1rem auto;
-    max-width: 25rem;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-segunda form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-segunda form input, .con-segunda form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-segunda form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-  }
-  .con-segunda form input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  .footer {
-    padding: 1rem 10rem;
-    font-weight: 600;
-  }
-  .footer .footer-titulo h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-  }
-  .footer .grid {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer .grid .titulo-redes {
-    margin: auto;
-  }
-  .footer .grid .titulo-redes p {
-    font-size: 1.6rem;
-    padding: 0.5rem 0rem;
-    margin: 1rem;
-  }
-  .footer .grid .ig-linkedin img {
-    width: 2rem;
-    height: 2rem;
-  }
-  .footer .grid .ig-linkedin a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .footer .grid .facebook {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-  }
-  .footer .grid .facebook img {
-    display: flex;
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
-  }
-  .footer .grid .facebook a {
-    font-size: 1.2rem;
-  }
-  .footer .grid .titulo-contactoPersonal p {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .footer .grid .numero p {
-    padding: 1rem;
-    font-size: 1.1rem;
-  }
-  .footer .grid .e-mail p {
-    padding: 1rem;
-    font-size: 1.1rem;
-  }
-  .footer .grid .titulo-direccion p {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .footer .grid .direccion p {
-    padding: 1rem;
-    margin: auto;
-    font-size: 1.1rem;
-  }
-  .footer .grid .ciudad p {
-    padding: 1rem;
-    margin: auto;
-    font-size: 1.1rem;
-  }
-}
-@media only screen and (min-width: 1441px) {
-  .header {
-    justify-content: space-between;
-    padding: 1rem 14rem;
-  }
-  .header nav {
-    display: flex;
-  }
-  .header nav ul {
-    justify-content: space-between;
-    align-items: center;
-    margin: 0rem;
-    padding: 0rem;
-    display: flex;
-  }
-  .header nav ul li {
-    list-style-type: none;
-  }
-  .header nav ul li a {
-    padding: 1rem;
-    text-decoration: none;
-    color: #cfcfcf;
-  }
-  .header nav ul li a:hover {
-    background-color: #a3a3a3;
-    color: #000000;
-    border: 0.1rem solid #000000;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    transition: 0.5s;
-  }
-  img {
-    width: 9rem;
-    height: 4rem;
-  }
-  .menu {
-    width: 3rem;
-    height: 4rem;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-  }
-  .img img {
-    width: 30rem;
-    height: 25rem;
-  }
-  .whatsapp {
-    bottom: 14rem;
-    right: 6rem;
-  }
-  .whatsapp img {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .titulo h1 {
-    padding: 1.5rem 14rem;
-    font-size: 1.7rem;
-  }
-  .cuerpo {
-    display: flex;
-    background-color: rgba(125, 143, 95, 0.46);
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-  .cuerpo img {
-    width: 35rem;
-    height: 25rem;
-    padding: 3rem 2rem 5rem 14rem;
-  }
-  .cuerpo p {
-    padding: 3rem 14rem 5rem 5rem;
-    margin: auto;
-    line-height: 2.5rem;
-    font-size: 1.8rem;
-    text-align: justify;
-    text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
-  }
-  .nos-primero {
-    background-color: #c0bab2;
-  }
-  .nos-primero h2 {
-    padding: 1rem 14rem;
-    font-size: 1.5rem;
-  }
-  .nos-primero p {
-    font-size: 1.5rem;
-    padding: 3rem 14rem;
-    line-height: 3rem;
-    text-align: justify;
-    margin: auto;
-  }
-  .nos-primero p img {
-    width: 16rem;
-    height: 14rem;
-    padding: 0.5rem 1rem;
-    display: flex;
-    float: left;
-  }
-  .ubi-primero {
-    background-color: #C0B6A7;
-  }
-  .ubi-primero h2 {
-    padding: 1rem 14rem;
-    font-size: 1.5rem;
-  }
-  .ubi-primero p {
-    font-size: 1rem;
-    margin: 0rem;
-    padding: 3rem 14rem;
-  }
-  .ubi-primero iframe {
-    margin: 0rem;
-    padding: 2rem 14rem;
-    display: flex;
-    width: 75%;
-  }
-  .servic-primero {
-    background-color: #C0B6A7;
-  }
-  .servic-primero h2 {
-    font-size: 1.5rem;
-    padding: 1rem 14rem;
-  }
-  .servic-primero p {
-    padding: 1.5rem 14rem;
-    font-size: 1.2rem;
-  }
-  .servic-primero ul {
-    list-style-image: url("../asset/img/check.png");
-    line-height: 3rem;
-    padding: 1rem 16rem;
-    margin: auto 2rem;
-  }
-  .servic-primero ul li {
-    padding-left: 1rem;
-    font-size: 1.5rem;
-  }
-  .servic-primero ul li:hover {
-    margin: 1rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem black;
-  }
-  .servic-primero ul li:active {
-    color: blue;
-  }
-  .servic-segundo {
-    background: rgba(174, 148, 112, 0.245) 0;
-    padding: 2rem 14rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .row {
-    padding: 5rem 18rem;
-    height: 100%;
-  }
-  .con-primero {
-    background-color: rgb(151, 140, 125);
-  }
-  .con-primero h2 {
-    font-size: 1rem;
-    padding: 1rem 10rem;
-  }
-  .con-segunda {
-    background-color: #C0B6A7;
-  }
-  .con-segunda p {
-    padding: 2rem 10rem;
-    font-size: 1rem;
-    margin: auto;
-  }
-  .con-segunda p a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .con-segunda form {
-    background-color: #C0B6A7;
-    margin: 1rem auto;
-    max-width: 25rem;
-    padding: 1.25rem;
-    background-color: #9b9696;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-  }
-  .con-segunda form label {
-    display: block;
-    margin-bottom: 0.2rem;
-    color: #000000;
-  }
-  .con-segunda form input, .con-segunda form textarea {
-    width: 95%;
-    padding: 0.6rem;
-    border: 0.2rem solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 0.6rem;
-    resize: none;
-  }
-  .con-segunda form input[type=submit] {
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-  }
-  .con-segunda form input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  .footer {
-    padding: 1rem 14rem;
-    font-weight: 600;
-  }
-  .footer .footer-titulo h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-  }
-  .footer .grid {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer .grid .titulo-redes {
-    margin: auto;
-  }
-  .footer .grid .titulo-redes p {
-    font-size: 1.6rem;
-    padding: 0.5rem 0rem;
-    margin: 1rem;
-  }
-  .footer .grid .ig-linkedin img {
-    width: 2rem;
-    height: 2rem;
-  }
-  .footer .grid .ig-linkedin a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .footer .grid .facebook {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-  }
-  .footer .grid .facebook img {
-    display: flex;
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
-  }
-  .footer .grid .facebook a {
-    font-size: 1.2rem;
-  }
-  .footer .grid .titulo-contactoPersonal p {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .footer .grid .numero p {
-    padding: 1rem;
-    font-size: 1.1rem;
-  }
-  .footer .grid .e-mail p {
-    padding: 1rem;
-    font-size: 1.1rem;
-  }
-  .footer .grid .titulo-direccion p {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .footer .grid .direccion p {
-    padding: 1rem;
-    margin: auto;
-    font-size: 1.1rem;
-  }
-  .footer .grid .ciudad p {
-    padding: 1rem;
-    margin: auto;
-    font-size: 1.1rem;
-  }
 }
 .footer .footer-titulo h4 {
   margin-bottom: 1rem;
 }
 .footer .grid {
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 0.5rem;
@@ -1396,7 +215,6 @@ body {
 }
 .footer .grid .titulo-redes p {
   color: #000000;
-  padding: 0.5rem 0rem;
 }
 .footer .grid .ig-linkedin {
   display: flex;
@@ -1408,12 +226,12 @@ body {
 }
 .footer .grid .ig-linkedin a {
   text-decoration: none;
+  color: #000000;
 }
 .footer .grid .facebook {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 }
 .footer .grid .facebook img {
   display: flex;
@@ -1421,7 +239,6 @@ body {
 }
 .footer .grid .facebook a {
   color: #000000;
-  text-decoration: none;
 }
 .footer .grid .titulo-contactoPersonal {
   margin: auto;
@@ -1450,6 +267,755 @@ body {
   margin: auto;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .header nav ul li {
+    list-style-type: none;
+    display: none;
+  }
+  .header img {
+    width: 6rem;
+    height: 3rem;
+  }
+  .header .menu {
+    width: 3rem;
+    height: 3rem;
+  }
+  .whatsapp {
+    right: 1rem;
+    bottom: 8rem;
+  }
+  .titulo h1 {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .cuerpo img {
+    width: 7rem;
+    padding-left: 1rem;
+  }
+  .cuerpo p {
+    padding: 1.5rem;
+    line-height: 1rem;
+    font-size: 1rem;
+  }
+  .whatsapp img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .img img {
+    width: 18rem;
+    height: 13rem;
+  }
+  .nos-primero h2 {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .nos-primero p {
+    font-size: 1rem;
+    padding: 2rem;
+    line-height: 1rem;
+    display: flow;
+  }
+  .nos-primero p img {
+    width: 7rem;
+    height: 7rem;
+    padding: 0.5rem;
+  }
+  .ubi-primero h2 {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .ubi-primero p {
+    padding: 2rem;
+  }
+  .ubi-primero iframe {
+    padding: 2rem 2rem;
+    width: 85%;
+  }
+  .servic-primero h2 {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+  .servic-primero p {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .servic-primero ul {
+    line-height: 2rem;
+    padding: 1rem 2rem;
+  }
+  .servic-primero ul li {
+    font-size: 1rem;
+  }
+  .servic-segundo {
+    padding: 2rem 2rem;
+  }
+  .row {
+    background-color: #C0B6A7;
+    padding: 1rem;
+  }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
+  .con-primero h2 {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .con-segunda p {
+    padding: 1rem;
+  }
+  .con-segunda form {
+    margin: 1rem;
+  }
+  .footer {
+    padding: 1rem;
+  }
+  .footer .footer-titulo h4 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .footer .grid .titulo-redes p {
+    font-size: 1rem;
+  }
+  .footer .grid .ig-linkedin img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .footer .grid .facebook img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .footer .grid .facebook a {
+    text-decoration: none;
+  }
+  .footer .grid .titulo-contactoPersonal p {
+    font-size: 1rem;
+    margin: auto;
+  }
+  .footer .grid .numero p {
+    align-items: center;
+  }
+  .footer .grid .e-mail p {
+    align-items: center;
+  }
+  .footer .grid .titulo-direccion p {
+    font-size: 1rem;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .header {
+    padding: 1rem 3rem;
+  }
+  .header nav ul li {
+    list-style-type: none;
+    display: none;
+  }
+  .header img {
+    width: 6rem;
+    height: 3rem;
+  }
+  .header .menu {
+    width: 3rem;
+    height: 3rem;
+  }
+  .whatsapp {
+    bottom: 12rem;
+    right: 3rem;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .img img {
+    width: 18rem;
+    height: 13rem;
+  }
+  .titulo h1 {
+    padding: 0.5rem 3rem;
+    font-size: 1.2rem;
+  }
+  .cuerpo img {
+    width: 18rem;
+    padding: 3rem 2rem 3rem 5rem;
+  }
+  .cuerpo p {
+    padding: 3rem 5rem 3rem 0rem;
+    line-height: 1.7rem;
+    font-size: 1.5rem;
+  }
+  .nos-primero h2 {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+  .nos-primero p {
+    font-size: 1rem;
+    padding: 3rem;
+    line-height: 1.5rem;
+  }
+  .nos-primero p img {
+    width: 9rem;
+    height: 9rem;
+    padding: 0.5rem;
+  }
+  .ubi-primero h2 {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+  .ubi-primero p {
+    padding: 3rem;
+  }
+  .ubi-primero iframe {
+    padding: 2rem 3rem;
+    width: 85%;
+  }
+  .servic-primero h2 {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+  }
+  .servic-primero p {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+  .servic-primero ul {
+    line-height: 2rem;
+    padding: 1rem 4rem;
+  }
+  .servic-primero ul li {
+    font-size: 1rem;
+  }
+  .servic-segundo {
+    padding: 2rem 3rem;
+  }
+  .row {
+    padding: 3rem;
+  }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
+  .con-primero h2 {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+  }
+  .con-segunda p {
+    padding: 2rem 3rem;
+  }
+  .con-segunda form {
+    margin: 1rem auto;
+  }
+  .footer {
+    padding: 1rem 3rem;
+    font-weight: 600;
+  }
+  .footer .footer-titulo h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .footer .grid .titulo-redes p {
+    font-size: 1.2rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .ig-linkedin img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .footer .grid .facebook {
+    padding: 1rem;
+  }
+  .footer .grid .facebook img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .footer .grid .facebook a {
+    font-size: 1rem;
+  }
+  .footer .grid .titulo-contactoPersonal p {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .footer .grid .numero p {
+    padding: 1rem;
+  }
+  .footer .grid .e-mail p {
+    padding: 1rem;
+  }
+  .footer .grid .titulo-direccion p {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .footer .grid .direccion p {
+    padding: 1rem;
+  }
+  .footer .grid .ciudad p {
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    padding: 1rem 6rem;
+  }
+  .header img {
+    width: 10rem;
+    height: 5rem;
+  }
+  .header .menu {
+    width: 4rem;
+    height: 5rem;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .img img {
+    width: 25rem;
+    height: 20rem;
+  }
+  .whatsapp {
+    bottom: 14rem;
+    right: 6rem;
+  }
+  .titulo h1 {
+    padding: 0.5rem 6rem;
+    font-size: 1.7rem;
+  }
+  .cuerpo img {
+    width: 18rem;
+    padding: 3rem 2rem 3rem 6rem;
+  }
+  .cuerpo p {
+    padding: 3rem 6rem 3rem 0rem;
+    line-height: 2rem;
+    font-size: 1.8rem;
+  }
+  .nos-primero h2 {
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+  }
+  .nos-primero p {
+    font-size: 1.5rem;
+    padding: 3rem 6rem;
+    line-height: 1.5rem;
+  }
+  .nos-primero p img {
+    width: 10rem;
+    height: 10rem;
+    padding: 0.8rem;
+  }
+  .ubi-primero h2 {
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+  }
+  .ubi-primero p {
+    padding: 3rem 6rem;
+  }
+  .ubi-primero iframe {
+    padding: 2rem 6rem;
+    width: 80%;
+  }
+  .servic-primero h2 {
+    font-size: 1.5rem;
+    padding: 1rem 6rem;
+  }
+  .servic-primero p {
+    padding: 1rem 6rem;
+    font-size: 1.2rem;
+  }
+  .servic-primero ul {
+    line-height: 2rem;
+    padding: 1rem 8rem;
+  }
+  .servic-primero ul li {
+    font-size: 1.2rem;
+  }
+  .servic-segundo {
+    padding: 2rem 6rem;
+  }
+  .row {
+    padding: 5rem 6rem;
+    height: 100%;
+  }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
+  .con-primero h2 {
+    font-size: 1rem;
+    padding: 1rem 6rem;
+  }
+  .con-segunda p {
+    padding: 2rem 6rem;
+  }
+  .con-segunda form {
+    margin: 1rem auto;
+  }
+  .footer {
+    padding: 1rem 6rem;
+    font-weight: 600;
+  }
+  .footer .footer-titulo h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .footer .grid .titulo-redes p {
+    font-size: 1.6rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .ig-linkedin img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer .grid .facebook {
+    padding: 1rem;
+  }
+  .footer .grid .facebook img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer .grid .facebook a {
+    font-size: 1rem;
+  }
+  .footer .grid .titulo-contactoPersonal p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .footer .grid .numero p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .e-mail p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .titulo-direccion p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .footer .grid .direccion p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .ciudad p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .header {
+    padding: 1rem 10rem;
+  }
+  .header img {
+    width: 9rem;
+    height: 4rem;
+  }
+  .header .menu {
+    width: 3rem;
+    height: 4rem;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .img img {
+    width: 25rem;
+    height: 20rem;
+  }
+  .whatsapp {
+    bottom: 14rem;
+    right: 6rem;
+  }
+  .titulo h1 {
+    padding: 1.5rem 10rem;
+    font-size: 1.7rem;
+  }
+  .cuerpo img {
+    width: 18rem;
+    padding: 3rem 1rem 3rem 10rem;
+  }
+  .cuerpo p {
+    padding: 3rem 10rem 3rem 0rem;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+  }
+  .nos-primero h2 {
+    padding: 1rem 10rem;
+    font-size: 1.5rem;
+  }
+  .nos-primero p {
+    font-size: 1.5rem;
+    padding: 3rem 10rem;
+    line-height: 3rem;
+  }
+  .nos-primero p img {
+    width: 16rem;
+    height: 14rem;
+    padding: 0.5rem 1rem;
+  }
+  .ubi-primero h2 {
+    padding: 1rem 10rem;
+    font-size: 1.5rem;
+  }
+  .ubi-primero p {
+    padding: 3rem 10rem;
+  }
+  .ubi-primero iframe {
+    padding: 2rem 10rem;
+    width: 80%;
+  }
+  .servic-primero h2 {
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+  }
+  .servic-primero p {
+    padding: 1rem 10rem;
+    font-size: 1.2rem;
+  }
+  .servic-primero ul {
+    line-height: 3rem;
+    padding: 1rem 12rem;
+  }
+  .servic-primero ul li {
+    font-size: 1.5rem;
+  }
+  .servic-segundo {
+    padding: 2rem 10rem;
+  }
+  .row {
+    padding: 5rem 10rem;
+    height: 100%;
+  }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
+  .con-primero h2 {
+    font-size: 1rem;
+    padding: 1rem 10rem;
+  }
+  .con-segunda p {
+    padding: 2rem 10rem;
+  }
+  .con-segunda form {
+    margin: 1rem auto;
+  }
+  .footer {
+    padding: 1rem 10rem;
+    font-weight: 600;
+  }
+  .footer .footer-titulo h4 {
+    font-size: 1.6rem;
+  }
+  .footer .grid .titulo-redes p {
+    font-size: 1.6rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .ig-linkedin img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer .grid .facebook {
+    padding: 1rem;
+  }
+  .footer .grid .facebook img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer .grid .facebook a {
+    font-size: 1.2rem;
+  }
+  .footer .grid .titulo-contactoPersonal p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .footer .grid .numero p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .e-mail p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .titulo-direccion p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .footer .grid .direccion p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .ciudad p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1441px) {
+  .header {
+    padding: 1rem 14rem;
+  }
+  .header nav ul li a {
+    padding: 1rem;
+  }
+  img {
+    width: 9rem;
+    height: 4rem;
+  }
+  .menu {
+    width: 3rem;
+    height: 4rem;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .img img {
+    width: 30rem;
+    height: 25rem;
+  }
+  .whatsapp {
+    bottom: 14rem;
+    right: 6rem;
+  }
+  .titulo h1 {
+    padding: 1.5rem 14rem;
+    font-size: 1.7rem;
+  }
+  .cuerpo img {
+    width: 35rem;
+    height: 25rem;
+    padding: 3rem 2rem 5rem 14rem;
+  }
+  .cuerpo p {
+    padding: 3rem 14rem 5rem 5rem;
+    margin: auto;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+  }
+  .nos-primero h2 {
+    padding: 1rem 14rem;
+    font-size: 1.5rem;
+  }
+  .nos-primero p {
+    font-size: 1.5rem;
+    padding: 3rem 14rem;
+    line-height: 3rem;
+  }
+  .nos-primero p img {
+    width: 16rem;
+    height: 14rem;
+    padding: 0.5rem 1rem;
+  }
+  .ubi-primero h2 {
+    padding: 1rem 14rem;
+    font-size: 1.5rem;
+  }
+  .ubi-primero p {
+    padding: 3rem 14rem;
+  }
+  .ubi-primero iframe {
+    padding: 2rem 14rem;
+    width: 75%;
+  }
+  .servic-primero h2 {
+    font-size: 1.5rem;
+    padding: 1rem 14rem;
+  }
+  .servic-primero p {
+    padding: 1.5rem 14rem;
+    font-size: 1.2rem;
+  }
+  .servic-primero ul {
+    line-height: 3rem;
+    padding: 1rem 16rem;
+  }
+  .servic-primero ul li {
+    font-size: 1.5rem;
+  }
+  .servic-primero ul li:hover {
+    margin: 1rem;
+    text-shadow: 0.2rem 0.2rem 0.3rem black;
+  }
+  .servic-primero ul li:active {
+    color: blue;
+  }
+  .servic-segundo {
+    padding: 2rem 14rem;
+  }
+  .row {
+    padding: 5rem 18rem;
+    height: 100%;
+  }
+  .con-primero {
+    background-color: rgb(151, 140, 125);
+  }
+  .con-primero h2 {
+    font-size: 1rem;
+    padding: 1rem 10rem;
+  }
+  .con-segunda p {
+    padding: 2rem 10rem;
+  }
+  .con-segunda form {
+    margin: 1rem auto;
+  }
+  .footer {
+    padding: 1rem 14rem;
+    font-weight: 600;
+  }
+  .footer .footer-titulo h4 {
+    font-size: 1.6rem;
+  }
+  .footer .grid .titulo-redes p {
+    font-size: 1.6rem;
+    padding: 0.5rem 0rem;
+    margin: 1rem;
+  }
+  .footer .grid .ig-linkedin img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer .grid .facebook {
+    padding: 1rem;
+  }
+  .footer .grid .facebook img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer .grid .facebook a {
+    font-size: 1.2rem;
+  }
+  .footer .grid .titulo-contactoPersonal p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .footer .grid .numero p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .e-mail p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .titulo-direccion p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .footer .grid .direccion p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .footer .grid .ciudad p {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}
 @keyframes resaltar {
   0% {
     transform: scale(1);

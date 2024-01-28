@@ -1,29 +1,12 @@
+@import "../base/variable";
 @media only screen and (min-width: 1441px){
     .header{
-        justify-content: space-between;
         padding: 1rem 14rem;
         nav {
-            display: flex;
             ul {
-                justify-content: space-between;
-                align-items: center;
-                margin: 0rem;
-                padding: 0rem;
-                display: flex;
                 li{
-                    list-style-type: none;
                     a {
                         padding: 1rem;
-                        text-decoration: none;
-                        color: #cfcfcf;
-                        &:hover{
-                            background-color: #a3a3a3;
-                            color: #000000;
-                            border: 0.1rem solid #000000;
-                            border-radius: 0.5rem;
-                            margin: 0.5rem;
-                            transition: 0.5s;
-                        }
                     }
                 }
             }
@@ -49,10 +32,6 @@
     .whatsapp{
         bottom: 14rem;
         right: 6rem;
-        img {
-            width: 2.5rem;
-            height: 2.5rem;
-        }
     }
     .titulo {
         h1{    
@@ -61,11 +40,6 @@
         }
     }
     .cuerpo {
-        display: flex;
-        background-color: rgba(125, 143, 95, 0.46);
-        align-items: center;
-        justify-content: center;
-        margin: auto;
         img{
             width: 35rem;
             height: 25rem;
@@ -76,12 +50,9 @@
             margin: auto;
             line-height: 2.5rem;
             font-size: 1.8rem;
-            text-align: justify;
-            text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
         }
     }
     .nos-primero{
-        background-color: #c0bab2;
         h2{
             padding: 1rem 14rem;
             font-size: 1.5rem;
@@ -90,38 +61,27 @@
             font-size: 1.5rem;
             padding: 3rem 14rem;
             line-height: 3rem;
-            
-            text-align: justify;
-            margin: auto;
             img{
                 width: 16rem;
                 height: 14rem;
                 padding: 0.5rem 1rem;
-                display: flex;
-                float: left;
             }
         }
     }
     .ubi-primero{
-        background-color: #C0B6A7;
         h2{
             padding: 1rem 14rem;
             font-size: 1.5rem;
         }
         p{
-            font-size: 1rem;
-            margin:0rem;
             padding: 3rem 14rem;
         }
         iframe{
-            margin: 0rem;
             padding: 2rem 14rem;
-            display: flex;
             width: 75%;
         }
     }
     .servic-primero {
-        background-color: #C0B6A7;
         h2{
             font-size: 1.5rem;
             padding: 1rem 14rem; 
@@ -131,13 +91,9 @@
             font-size: 1.2rem;
         }
         ul{
-            list-style-image:url("../asset/img/check.png");
             line-height: 3rem;
             padding: 1rem 16rem ;
-            margin: auto 2rem;
             li{
-                padding-left: 1rem;
-                
                 font-size: 1.5rem;
                 &:hover{
                     margin: 1rem;
@@ -150,11 +106,7 @@
         }
     }
     .servic-segundo {
-        background: rgba(174, 148, 112, 0.245) 0;
         padding: 2rem 14rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
     }
     .row{
         padding: 5rem 18rem;
@@ -168,50 +120,11 @@
         }
     }
     .con-segunda{
-        background-color: #C0B6A7;
         p{
             padding: 2rem 10rem;
-            font-size: 1rem;
-            margin: auto;
-            a{
-                text-decoration: none;
-                color: #000000;
-            }
         }
         form {
-            background-color: #C0B6A7;
             margin: 1rem auto;
-            max-width: 25rem;
-            padding: 1.25rem;
-            background-color: #9b9696;
-            border-radius: 0.625rem;
-            box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-        
-            label {
-                display: block;
-                margin-bottom: 0.2rem;
-                color: #000000;
-            }
-        
-            input, textarea {
-                width: 95%;
-                padding: 0.6rem;
-                border: 0.2rem solid #ccc;
-                border-radius: 0.25rem;
-                margin-bottom: 0.6rem;
-                resize: none;
-            }
-        
-            input[type="submit"] {
-                background-color: #4CAF50;
-                color: #fff;
-                cursor: pointer;
-                width: 100%;
-        
-                &:hover {
-                    background-color: #45a049;
-                }
-            }
         }
     }  
     .footer {
@@ -220,19 +133,10 @@
         .footer-titulo {
             h4{
                 font-size: 1.6rem;
-                margin-bottom: 1rem;
             }
         }
         .grid {
-            text-align: center;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            row-gap: 0.5rem;
-            column-gap: 0.5rem;
-            align-items: center;
-            justify-content: center;
             .titulo-redes {
-                margin: auto;
                 p{
                     font-size: 1.6rem;
                     padding: 0.5rem 0rem;
@@ -244,21 +148,12 @@
                     width: 2rem;
                     height: 2rem;
                 }
-                a{
-                    text-decoration: none;
-                    color: #000000;
-                }
             }
             .facebook{
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 padding: 1rem;
                 img{
-                    display: flex;
                     width: 2rem;
                     height: 2rem;
-                    margin-right: 0.5rem;
                 }
                 a{
                     font-size: 1.2rem;
@@ -291,14 +186,12 @@
             .direccion{ 
                 p{
                     padding: 1rem;
-                    margin: auto;
                     font-size: 1.1rem;// se queda
                 }
             }
             .ciudad {
                 p{
                     padding: 1rem;
-                    margin: auto;
                     font-size: 1.1rem;// se queda
                 }
             }

@@ -1,3 +1,4 @@
+@import "../base/variable";
 @media only screen and (min-width: 426px) and (max-width: 768px){
     .header{
         padding: 1rem 3rem;
@@ -21,10 +22,6 @@
     .whatsapp{
         bottom: 12rem;
         right: 3rem;
-        img {
-            width: 2rem;
-            height: 2rem;
-        }
     }
     .img{
         display: flex;
@@ -37,34 +34,22 @@
     }
     .titulo {
         h1{    
-            padding: 0.5rem 3rem; //cambia
+            padding: 0.5rem 3rem;
             font-size: 1.2rem;
         }
     }
     .cuerpo {
-        display: flex;
-        background-color: rgba(125, 143, 95, 0.46);
-        align-items: center;
-        justify-content: center;
-        margin: auto;
         img{
-            // display: flex;
-            justify-content: center;
-            text-align: justify;
             width: 18rem;
             padding: 3rem 2rem 3rem 5rem;
         }
         p {
             padding: 3rem 5rem 3rem 0rem;
-            margin: auto;
             line-height: 1.7rem;
             font-size: 1.5rem;
-            text-align: justify;
-            text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
         }
     }
     .nos-primero{
-        background-color: #C0B6A7;
         h2{
             padding: 1rem 3rem;
             font-size: 1rem;
@@ -73,38 +58,27 @@
             font-size: 1rem;
             padding: 3rem;
             line-height: 1.5rem;
-            
-            text-align: justify;
-            margin: auto;
             img{
                 width: 9rem;
                 height: 9rem;
                 padding: 0.5rem;
-                display: flex;
-                float: left;
             }
         }
     }
     .ubi-primero{
-        background-color: #C0B6A7;
         h2{
             padding: 1rem 3rem;
             font-size: 1rem;
         }
         p{
-            font-size: 1rem;
-            margin:0rem;
             padding: 3rem;
         }
         iframe{
-            margin: 0rem;
             padding: 2rem 3rem;
-            display: flex;
             width: 85%;
         }
     }
     .servic-primero {
-        background-color: #C0B6A7;
         h2{
             font-size: 1.5rem;
             padding: 1rem 3rem; // cambia 
@@ -114,22 +88,15 @@
             font-size: 1rem;
         }
         ul{
-            list-style-image:url("../asset/img/check.png");
             line-height: 2rem;
-            padding: 1rem 4rem ;// cambia
-            margin: auto 2rem;
+            padding: 1rem 4rem ;
             li{
-                padding-left: 1rem;
                 font-size: 1rem;
             }
         }
     }
     .servic-segundo {
-        background: rgba(174, 148, 112, 0.245) 0;
         padding: 2rem 3rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
     }
     .row{
         padding: 3rem;
@@ -142,49 +109,11 @@
         }
     }
     .con-segunda{
-        background-color: #C0B6A7;
         p{
             padding: 2rem 3rem;
-            font-size: 1rem;
-            margin: auto;
-            a{
-                text-decoration: none;
-                color: #000000;
-            }
         }
         form {
             margin: 1rem auto;
-            max-width: 25rem;
-            padding: 1.25rem;
-            background-color: #9b9696;
-            border-radius: 0.625rem;
-            box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-        
-            label {
-                display: block;
-                margin-bottom: 0.2rem;
-                color: #000000;
-            }
-        
-            input, textarea {
-                width: 95%;
-                padding: 0.6rem;
-                border: 0.2rem solid #ccc;
-                border-radius: 0.25rem;
-                margin-bottom: 0.6rem;
-                resize: none;
-            }
-        
-            input[type="submit"] {
-                background-color: #4CAF50;
-                color: #fff;
-                cursor: pointer;
-                width: 100%;
-        
-                &:hover {
-                    background-color: #45a049;
-                }
-            }
         }
     }  
 
@@ -198,15 +127,7 @@
             }
         }
         .grid {
-            text-align: center;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            row-gap: 0.5rem;
-            column-gap: 0.5rem;
-            align-items: center;
-            justify-content: center;
             .titulo-redes {
-                margin: auto;
                 p{
                     font-size: 1.2rem;
                     padding: 0.5rem 0rem;
@@ -218,20 +139,12 @@
                     width: 1rem;
                     height: 1rem;
                 }
-                a{
-                    text-decoration: none;
-                }
             }
             .facebook{
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 padding: 1rem;
                 img{
-                    display: flex;
                     width: 1rem;
                     height: 1rem;
-                    margin-right: 0.5rem;
                 }
                 a{
                     font-size: 1rem;
@@ -262,13 +175,11 @@
             .direccion{ 
                 p{
                     padding: 1rem;
-                    margin: auto;// se queda
                 }
             }
             .ciudad {
                 p{
                     padding: 1rem;// se queda
-                    margin: auto;
                 }
             }
         }
