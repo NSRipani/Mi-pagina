@@ -1,4 +1,6 @@
 @import "../base/variable";
+
+
 @media only screen and (min-width: 320px) and (max-width: 425px) {
     .header{
         nav {
@@ -38,10 +40,10 @@
             font-size: 1rem;
         }
     }
-    .whatsapp img {
-        width: 2rem;
-        height: 2rem;
-    }
+    // .whatsapp {
+    //     bottom: 10rem;
+    //     right: 1rem;
+    // }
     .img{
         display: flex;
         justify-content: center;
@@ -60,7 +62,6 @@
             font-size: 1rem;
             padding: 2rem;
             line-height: 1rem;
-            display: flow;
             img{
                 width: 7rem;
                 height: 7rem;
@@ -83,6 +84,7 @@
         }
     }
     .servic-primero {
+
         h2{
             font-size: 1rem;
             padding: 1rem 2rem;

@@ -1,3 +1,9 @@
+.whatsapp {
+  position: fixed !important;
+  bottom: 16rem;
+  right: 8rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +17,7 @@ body {
 .header {
   padding: 1rem;
   display: flex;
-  background-color: #605f5f;
+  background-image: linear-gradient(180deg, rgba(96, 95, 95, 0.8547794118) 3%, rgb(172, 170, 165) 100%);
   border-bottom: 0.1rem solid #000000;
   justify-content: space-between;
   align-items: center;
@@ -45,9 +51,6 @@ body {
   transition: 0.5s;
 }
 
-.whatsapp {
-  position: fixed !important;
-}
 .whatsapp img {
   width: 2.5rem;
   height: 2.5rem;
@@ -296,10 +299,6 @@ body {
     line-height: 1rem;
     font-size: 1rem;
   }
-  .whatsapp img {
-    width: 2rem;
-    height: 2rem;
-  }
   .img {
     display: flex;
     justify-content: center;
@@ -317,7 +316,6 @@ body {
     font-size: 1rem;
     padding: 2rem;
     line-height: 1rem;
-    display: flow;
   }
   .nos-primero p img {
     width: 7rem;
@@ -421,10 +419,6 @@ body {
   .header .menu {
     width: 3rem;
     height: 3rem;
-  }
-  .whatsapp {
-    bottom: 12rem;
-    right: 3rem;
   }
   .img {
     display: flex;
@@ -576,10 +570,6 @@ body {
     width: 25rem;
     height: 20rem;
   }
-  .whatsapp {
-    bottom: 14rem;
-    right: 6rem;
-  }
   .titulo h1 {
     padding: 0.5rem 6rem;
     font-size: 1.7rem;
@@ -725,10 +715,6 @@ body {
   .img img {
     width: 25rem;
     height: 20rem;
-  }
-  .whatsapp {
-    bottom: 14rem;
-    right: 6rem;
   }
   .titulo h1 {
     padding: 1.5rem 10rem;
@@ -877,10 +863,6 @@ body {
   .img img {
     width: 30rem;
     height: 25rem;
-  }
-  .whatsapp {
-    bottom: 14rem;
-    right: 6rem;
   }
   .titulo h1 {
     padding: 1.5rem 14rem;
