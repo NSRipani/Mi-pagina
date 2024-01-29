@@ -12,14 +12,14 @@ body{
     background-color: #605f5f;
     border-bottom: 0.1rem solid #000000;
     justify-content: space-between; 
-    align-items: center ;
+    align-items: $center ;
     position: sticky ;
     top: 0;
     nav {
         display: flex;
         ul {
             justify-content: space-between;
-            align-items: center;
+            align-items: $center;
             margin: 0rem;
             padding: 0rem;
             display: flex;
@@ -65,11 +65,11 @@ body{
 .cuerpo {
     display: flex;
     background-color: rgba(125, 143, 95, 0.46);
-    align-items: center;
-    justify-content: center;
+    align-items: $center;
+    justify-content: $center;
     margin: auto;
     img{
-        justify-content: center;
+        justify-content: $center;
         text-align: justify;
     }
     p {
@@ -79,7 +79,7 @@ body{
     }
 }
 .nos-primero{
-    background-color: #C0B6A7;
+    background-color: $color-fondo;
     
     p{
         text-align: justify;
@@ -91,7 +91,7 @@ body{
     }
 }
 .ubi-primero{
-    background-color: #C0B6A7;
+    background-color: $color-fondo;
     p{
         font-size: 1rem;
         margin:0rem;
@@ -102,7 +102,7 @@ body{
     }
 }
 .servic-primero {
-    background-color: #C0B6A7;
+    background-color: $color-fondo;
     ul{
         list-style-image:url("../asset/img/check.png");
         margin: auto 2rem;
@@ -122,14 +122,14 @@ body{
     }
 }
 .servic-segundo {
-    background: rgba(174, 148, 112, 0.245) 0;
+    background-color: $color-fondo0;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: $center;
+    align-items: $center;
 }
 .row {
     width: 100%;
-    background-color: #C0B6A7;
+    background-color: $color-fondo;
     margin: auto;
     .card {
         height: 100%;
@@ -153,7 +153,7 @@ body{
 }
 
 .con-segunda{
-    background-color: #C0B6A7;
+    background-color: $color-fondo;
     p{
         font-size: 1rem;
         margin: auto;
@@ -205,13 +205,13 @@ body{
         }
     }
     .grid {
-        text-align: center;
+        text-align: $center;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 0.5rem;
         column-gap: 0.5rem;
-        align-items: center;
-        justify-content: center;
+        align-items: $center;
+        justify-content: $center;
         .titulo-redes {
             margin: auto;
             p{
@@ -220,7 +220,7 @@ body{
         }
         .ig-linkedin{
             display: flex;
-            justify-content: center;
+            justify-content: $center;
             img{
                 display: flex;
                 margin-right: 0.5rem;
@@ -232,8 +232,8 @@ body{
         }
         .facebook{
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: $center;
+            align-items: $center;
             img{
                 display: flex;
                 margin-right: 0.5rem;
