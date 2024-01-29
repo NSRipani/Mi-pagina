@@ -82,7 +82,7 @@ body {
 }
 
 .nos-primero {
-  background-color: #C0B6A7;
+  background-color: #c0b6a7;
 }
 .nos-primero p {
   text-align: justify;
@@ -94,7 +94,7 @@ body {
 }
 
 .ubi-primero {
-  background-color: #C0B6A7;
+  background-color: #c0b6a7;
 }
 .ubi-primero p {
   font-size: 1rem;
@@ -106,7 +106,7 @@ body {
 }
 
 .servic-primero {
-  background-color: #C0B6A7;
+  background-color: #c0b6a7;
 }
 .servic-primero ul {
   list-style-image: url("../asset/img/check.png");
@@ -118,14 +118,14 @@ body {
 }
 .servic-primero ul li a:hover {
   margin: 1rem;
-  text-shadow: 0.2rem 0.2rem 0.3rem black;
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
 }
 .servic-primero ul li a:active {
   color: blue;
 }
 
 .servic-segundo {
-  background: rgba(174, 148, 112, 0.245) 0;
+  background-color: #c0b6a7;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -133,7 +133,7 @@ body {
 
 .row {
   width: 100%;
-  background-color: #C0B6A7;
+  background-color: #c0b6a7;
   margin: auto;
 }
 .row .card {
@@ -150,12 +150,11 @@ body {
   margin-bottom: 2.5rem;
 }
 .row .card .card-body a:hover {
-  background-color: #4CAF50;
-  animation-direction: alternate;
+  background-color: #ffcc00;
 }
 
 .con-segunda {
-  background-color: #C0B6A7;
+  background-color: #c0b6a7;
 }
 .con-segunda p {
   font-size: 1rem;
@@ -1016,6 +1015,27 @@ body {
     font-size: 1.1rem;
   }
 }
+@keyframes whatsapp-float {
+  0% {
+    transform: translateY(0);
+    transform: scale(1);
+  }
+  50% {
+    transform: translateY(-10px);
+    transform: scale(2);
+  }
+  100% {
+    transform: translateY(0);
+    transform: scale(1);
+  }
+}
+.whatsapp img {
+  animation-name: whatsapp-float;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+}
+
 @keyframes resaltar {
   0% {
     transform: scale(1);
@@ -1035,12 +1055,8 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
   animation-duration: 2s;
-  animation-delay: 1s;
   margin: 1rem;
   text-shadow: 0.2rem 0.2rem 0.3rem black;
-}
-.servic-primero ul li:active {
-  color: blue;
 }
 
 .whatsapp {

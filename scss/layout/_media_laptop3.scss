@@ -70,6 +70,7 @@
     }
     .ubi-primero{
         h2{
+            //@extend .con-primero-h2;
             padding: 1rem 14rem;
             font-size: 1.5rem;
         }
