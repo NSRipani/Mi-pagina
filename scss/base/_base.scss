@@ -24,6 +24,7 @@ body{
     align-items: $center ;
     position: sticky ;
     top: 0;
+    z-index: 1;
     nav {
         display: flex;
         ul {
@@ -63,11 +64,7 @@ body{
         }
     }
 }
-    
 
-.carousel-inner{
-    z-index: -1;
-}
 .con-segunda{
     padding-bottom: 1rem;
 }
