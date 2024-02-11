@@ -23,6 +23,7 @@ body {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .header nav {
   display: flex;
@@ -57,10 +58,6 @@ body {
 }
 .whatsapp a:hover {
   transform: scale(2);
-}
-
-.carousel-inner {
-  z-index: -1;
 }
 
 .con-segunda {
