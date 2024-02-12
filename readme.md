@@ -1,2 +1,1 @@
-En este proyecto, por ser el primiero, no he creado ramas antes de introdicir cambios para luego agregarlos y su posterior confirmación. 
-Esto no quire decir no quize crear ramas, sino que se me olvido crearlas. Dicho esto, se intento introducir los contenidos dados en las clases.git
+
